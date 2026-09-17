@@ -59,21 +59,38 @@ pre {{ white-space:pre-wrap; background:#f2f4f7; padding:12px; border-radius:10p
   <p>抓取 10 本期刊最近一期论文，用语义匹配判断你的主题是否有相似论文。</p>
 </header>
 <main>
-  <form method="post" action="/match">
-    <input type="text" name="topic" placeholder="例如：大语言模型驱动的代码生成与漏洞检测" required>
-    <select name="matcher">
-      <option value="auto">matcher: auto</option>
-      <option value="embedding">matcher: embedding</option>
-      <option value="lexical">matcher: lexical</option>
-    </select>
-    <label class="check"><input type="checkbox" name="offline" value="1" checked> 离线 fixtures</label>
-    <button type="submit">开始匹配</button>
-  </form>
+  {form}
   {content}
 </main>
 </body>
 </html>
 """
+
+
+def render_form(topic: str = "", matcher: str = "auto", offline: bool = True) -> str:
+    """渲染查询表单，并**回显本次运行的真实参数**（主题 / matcher / 在线或离线）。
+
+    结果页若把输入框留在空状态、勾选框回到默认值，用户会误以为"参数没生效/没查过"，
+    因此结果页按实际生效的参数回显。
+    """
+    opts = "".join(
+        '<option value="{0}"{1}>matcher: {0}</option>'.format(
+            m, " selected" if matcher == m else ""
+        )
+        for m in ("auto", "embedding", "lexical")
+    )
+    checked = " checked" if offline else ""
+    placeholder = "例如：大语言模型驱动的代码生成与漏洞检测"
+    return (
+        '<form method="post" action="/match">\n'
+        '    <input type="text" name="topic" value="' + html.escape(topic) + '"'
+        ' placeholder="' + placeholder + '" required>\n'
+        '    <select name="matcher">' + opts + '</select>\n'
+        '    <label class="check"><input type="checkbox" name="offline" value="1"'
+        + checked + '> 离线 fixtures</label>\n'
+        '    <button type="submit">开始匹配</button>\n'
+        '  </form>'
+    )
 
 
 def _fmt_score(x: float) -> str:
@@ -132,7 +149,7 @@ class Handler(BaseHTTPRequestHandler):
         try:
             p = urlparse(self.path)
             if p.path == "/":
-                self._send(200, PAGE.format(content=""))
+                self._send(200, PAGE.format(form=render_form(), content=""))
             elif p.path == "/api/match":
                 qs = parse_qs(p.query)
                 topic = (qs.get("topic") or [""])[0]
@@ -162,13 +179,13 @@ class Handler(BaseHTTPRequestHandler):
             offline = (form.get("offline") or ["0"])[0] not in ("0", "false", "False", "")
             matcher = (form.get("matcher") or ["auto"])[0]
             if not topic:
-                self._send(200, PAGE.format(content="<div class='meta'>请输入主题。</div>"))
+                self._send(200, PAGE.format(form=render_form(topic, matcher, offline), content="<div class='meta'>请输入主题。</div>"))
                 return
             report = run_match(topic, offline=offline, matcher_prefer=matcher)
-            self._send(200, PAGE.format(content=render_results(report)))
+            self._send(200, PAGE.format(form=render_form(topic, matcher, offline), content=render_results(report)))
         except Exception as e:
             log.exception("POST failed")
-            self._send(500, PAGE.format(content=f"<div class='meta'>服务器错误：{html.escape(str(e))}</div>"))
+            self._send(500, PAGE.format(form=render_form(topic, matcher, offline), content=f"<div class='meta'>服务器错误：{html.escape(str(e))}</div>"))
 
 
 def main(argv: list[str] | None = None) -> int:
