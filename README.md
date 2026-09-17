@@ -34,7 +34,7 @@ matcher 自动选择规则：能加载 BGE 就用 BGE，否则降级为 `jieba +
 ## 2. 常用 CLI
 
 ```bash
-# 现场解析：打印可抓取标识 + 命中源 + 最近一期期号/发布日期
+# 期刊解析：打印可抓取标识 + 命中源 + 最近一期期号/发布日期
 python -m radar resolve "软件学报"
 
 # 在线匹配全部 10 本刊，终端表格
@@ -62,9 +62,9 @@ python -m radar.web --port 8099      # 默认端口就是 8099
 ```
 
 页面输入主题，返回每刊结果卡片：是否命中、命中数、强/弱相关数、Top 论文标题/分数/链接；
-默认勾选“离线 fixtures”，现场断网可直接演示。也提供 `GET /api/match?topic=...&offline=1` 返回 JSON。
+默认勾选“离线 fixtures”，断网也能完整演示。也提供 `GET /api/match?topic=...&offline=1` 返回 JSON。
 
-## 4. 面试现场：拿到新期刊名后的三步操作
+## 4. 临时新增期刊：三步操作
 
 1. **先在线解析，优先零配置直接接进来**：
 
@@ -99,10 +99,10 @@ python -m radar.web --port 8099      # 默认端口就是 8099
 3. **跑匹配**：
 
    ```bash
-   python -m radar match --topic "<面试主题>" --journal "<期刊名>" --format all
+   python -m radar match --topic "<主题>" --journal "<期刊名>" --format all
    ```
 
-   现场断网时加 `--offline`；若该刊尚未加入 fixtures，需要通过在线抓取或补真实样本后再演示。
+   断网时加 `--offline`；若该刊尚未加入 fixtures，需先在线抓取或补真实样本再演示。
 
 ## 5. 配置与阈值
 
@@ -138,11 +138,11 @@ scripts/calibrate_lexical.py  词法阈值标定
 | `resolve` 打印 404/超时 | 期刊官网改版或目标 URL 失效 | 查看失败候选与 URL；改 `current_url`/`site_url`，或换可抓刊物并更新证据文档 |
 | 国内刊摘要缺失 | 官网列表页/详情页未公开摘要 | 字段为“有则”；记录 `text_source=title+keywords`，报告/日志显式标注，不伪造 |
 | 国外刊近几年无记录 | 该刊 Crossref 覆盖差 | 换 OpenAlex 或换刊；`source_priority` 不要预设“一定可用” |
-| 离线演示缺 fixtures | 未抓过该刊或文件不存在 | `python scripts/capture_evidence.py` 联网补齐；断网现场需提前准备 |
+| 离线演示缺 fixtures | 未抓过该刊或文件不存在 | `python scripts/capture_evidence.py` 联网补齐；离线演示需提前准备样本 |
 | 8099 端口被占用 | 已有进程 | `python -m radar.web --port 8098`，但要求端口 8099 时先结束旧进程 |
 | 搜索结果全英文、跨语言分数低 | BGE 中文模型对中英混合文本的压缩 | 优先用 BGE；报告分数和 `text_source` 可解释，不要用词法分数冒充语义分数 |
 
-## 8. 为什么现场可用
+## 8. 为什么可以直接跑起来
 
 - `scripts/smoke.sh` 一条命令输出 PASS/FAIL 表：Python、依赖、10 刊配置、fixtures、
   matcher 后端、离线样例、每个默认源的实时连通性。
@@ -174,7 +174,7 @@ ln -s src/radar radar                                          # ③ 手工补�
 | 截图 | 说明 |
 |---|---|
 | ![CLI 匹配](docs/screenshots/cli-match.png) | `radar match --topic "..." --offline`：逐刊判定表 + Top 论文 + 判定基线（`matcher=embedding:BAAI/bge-small-zh-v1.5`） |
-| ![现场解析](docs/screenshots/cli-resolve.png) | `radar resolve "软件学报"`：ISSN / 官网 / 命中源 / 最近一期期号与发布日期 / 前 3 条标题 |
+| ![期刊解析](docs/screenshots/cli-resolve.png) | `radar resolve "软件学报"`：ISSN / 官网 / 命中源 / 最近一期期号与发布日期 / 前 3 条标题 |
 | ![冒烟自检](docs/screenshots/smoke.png) | `scripts/smoke.sh`：21 项检查全 PASS，含 10 本刊的实时连通性 |
 | ![Web UI 首页](docs/screenshots/webui-home.png) | Web UI（stdlib，零额外依赖）：输入主题 + matcher 选择 + 离线样本开关 |
 | ![Web UI 结果](docs/screenshots/webui-result.png) | Web UI 结果页：每刊是否命中、命中数（强/弱）、Top 论文分数与链接、降级提示 |

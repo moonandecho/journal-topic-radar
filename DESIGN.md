@@ -5,7 +5,7 @@
 | 约束 | 设计落点 |
 |---|---|
 | R1 运行时配置 | `config/journals.yaml` 是唯一期刊名单；代码只读配置，测试会检查 `src/radar/**/*.py` 不含期刊名字符串 |
-| R2 现场解析 | `python -m radar resolve "<期刊名>"` 走 `resolver` + `pipeline.fetch_issue`；成功打印 ISSN/slug/官网/命中源/期号/发布日期，失败打印候选源与真实原因 |
+| R2 期刊解析 | `python -m radar resolve "<期刊名>"` 走 `resolver` + `pipeline.fetch_issue`；成功打印 ISSN/slug/官网/命中源/期号/发布日期，失败打印候选源与真实原因 |
 | R3 最近一期 | `sources/journal_site.py` 解析国内官网当期目录；`sources/crossref.py` / `openalex.py` 按卷/期分组抓取，至少 5 篇，字段标准化为 `Paper` |
 | R4 语义匹配 | `matcher.py` 提供 embedding / lexical 两种后端，`pipeline.run_match` 逐刊评分并输出 Top-3 |
 | R5 三档判定 | `config/thresholds.yaml` + `report.py`；每个 `JournalMatch` 带 `matcher` 和 `thresholds` |
@@ -180,8 +180,8 @@ otherwise        -> irrelevant
   IJCV 曾因最新 issue 同卷期不足 5 篇被替换为 TKDE。
 - **数据库更新延迟**：OpenAlex 与 Crossref 的排序时间不同，很可能补不到少数 DOI 的摘要；诊断会写明补全数量。
 - **官网 HTML 结构变化**：`journal_site` 用通用 class 选择器 + 详情页补全；如果官网改版，`resolve` 会失败并给出 URL/原因，
-  需要现场维护 parser 或更换可抓刊。
-- **反过拟合**：代码没有逐刊 if/白名单，也没有把面试主题原文写进代码；所有刊名、来源和阈值均来自 YAML，
+  需要维护 parser 或更换可抓刊。
+- **反过拟合**：代码没有逐刊 if/白名单，也没有把测试主题原文写进代码；所有刊名、来源和阈值均来自 YAML，
   测试还检查了 `src/radar` 中不含配置中的期刊名。
 
 ## 9. 扩展点
@@ -191,4 +191,4 @@ otherwise        -> irrelevant
 2. 新增官网 parser：在 `journal_site.py` 增加 parser 分支，并把 `parser` 字段写进期刊配置。
 3. 新 matcher：实现 `MatchBackend.score(topic, texts)` 并接入 `make_backend`；报告会自动输出名称/阈值/降级原因。
 4. 新输出格式：在 `report.py` 增加 render 函数，在 `cli.py` 扩展 `--format` 选项。
-5. 缓存与增量：可在 `pipeline.fetch_issue` 前加 `fixtures`/SQLite 缓存；当前优先级是现场可解释、失败显式。
+5. 缓存与增量：可在 `pipeline.fetch_issue` 前加 `fixtures`/SQLite 缓存；当前优先级是可解释与失败显式。
