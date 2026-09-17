@@ -1,0 +1,67 @@
+URL: https://www.jos.org.cn
+HTTP/bytes: 200/1351750
+Captured: 2026-09-17T19:03:58+08:00
+
+
+<!DOCTYPE html>
+<html xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<base href="/">
+
+<meta charset="utf-8">
+
+<title>欢迎访问软件学报网站！</title>
+<meta name="Keywords" content="软件学报"/><meta name="Description" content="软件学报"/>
+
+<!-- 
+<link rel="stylesheet" type="text/css" href="template/011_csa/css/style_h5.css" media="all and (min-width: 1201px)">
+ -->
+<link rel="stylesheet" type="text/css" href="template/011_csa/css/style_h5.css" >
+<link rel="stylesheet" type="text/css" href="template/011_csa/css/style_1000px_h5.css" media="all and (max-width: 1200px)">
+<link rel="stylesheet" type="text/css" href="template/011_csa/css/right_footer_notice.css">
+<link rel="stylesheet" type="text/css" href="template/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="template/011_csa/css/AIreading.css">
+<script type="text/javascript" src="template/js/jquery.min.js"></script>
+<script type="text/javascript" src="template/js/jquery.SuperSlide.2.1.3.js"></script>
+<script type="text/javascript" src="template/js/checkform.js"></script>
+<script type="text/javascript" src="template/011_csa/js/Tony_Tab.js"></script>
+<script type="text/javascript" src="template/011_csa/js/baguettebox.min.js"></script>
+<script type="text/javascript" src="template/js/et_website.js"></script>
+<script type="text/javascript" src="/template/011_csa/js/AIreding12.js?v=12"></script>
+
+
+<style>
+.tr { width:810px !important; }
+.cat { clear:both; } 
+.slideTxtBox .hd ul li { margin-right: 20px !important;
+    font-size: 14px; }
+
+.slideTxtBox_list{overflow: initial;}
+</style>
+
+
+</head>
+
+<body>
+
+<div class="site_container">
+  <div class="index_m m-c">
+    
+     
+    <div class="navExt">
+      
+      <div class="index_lg">
+     <!-- <div class="index_left">
+         
+        <div class="top_logo"><img src="" width="500" height="80"></div>
+        <div class="top_txt">主办：中国科学院软件研究所 <br >                 中国计算机学会</div>
+        </div>-->
+        <div class="index_right">
+        <div class="index_wm">
+		<div class="wm_img" style="float: left;">      
+        <div class="twmImg"><img src="/template/011_csa/images/wxxcx.jpg" width="70%"></div>
+          <h2 style="background-color:transparent">微信小程序</h2>
+      </div>
+
+        <div class="wm_img">      
+        <div class="twmImg"><img src="/template/011

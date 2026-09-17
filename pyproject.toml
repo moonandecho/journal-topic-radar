@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "journal-topic-radar"
+version = "0.1.0"
+description = "Journal topic radar: fetch latest papers and semantically match a user topic"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31", "PyYAML>=6.0", "beautifulsoup4>=4.12", "jieba>=0.42.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

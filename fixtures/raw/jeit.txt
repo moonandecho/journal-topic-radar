@@ -1,0 +1,37 @@
+URL: https://jeit.ac.cn/article/current
+HTTP/bytes: 200/364737
+Captured: 2026-09-17T19:04:11+08:00
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>电子与信息学报</title>
+		<meta name="baidu-site-verification" content="code-6Z1YuSSSuz" />
+<meta name="journal" content="电子与信息学报"/>
+<meta name="google-site-verification" content="aekWQckWw6UmnaNlMJ65bYgxLQKJq6srqazBtTH1rFM" /><!-- RhhzPro -->
+<!-- RhhzPro Link_css -->
+<base href="/">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link type="text/css" href="/style/web/images/custom/favicon.ico" rel="shortcut icon" />
+<link type="text/css" href="/style/web/css/public/bootstrap/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/public/font-awesome/font-awesome.min.css" rel="sty/stylet" />
+<link type="text/css" href="/style/web/css/public/swiper/swiper.min.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/public/owl-carousel/owl.carousel.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/public/iconfont/iconfont.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/public/base/base.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/custom/media/media.css" rel="stylesheet" />
+<link type="text/css" href="/style/web/css/custom/style/style.css" rel="stylesheet" />
+<!-- RhhzPro Link_js -->
+<script type="text/javascript" src="/style/web/js/public/jquery-public.min.js"></script>
+<script type="text/javascript" src="/style/web/js/public/bootstrap.min.js"></script>
+<script type="text/javascript" src="/style/web/js/public/jquery.validate.js"></script>
+<script type="text/javascript" src="/style/web/js/public/swiperd.min.js"></script>
+<script type="text/javascript" src="/style/web/js/public/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="/style/web/js/public/owl.carousel.js"></script>
+<script type="text/javascript" src="/style/web/js/public/jquery.colorbox.js"></script>
+<script type="text/javascript" src="/style/web/js/public/user_validate.js"></script>
+<script type="text/javascript" src="/style/web/js/public/rhhz.js"></script>
+<script type="text/javascript" src="/style/web/js/public/base.js"></script> 
+<script type="text/javascript" src="/style/web/js/public/index.js"></script> 
+<script type="text/javascript" src="/style/web/js/public/respond.js"></

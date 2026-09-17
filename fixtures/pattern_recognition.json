@@ -1,0 +1,418 @@
+{
+  "journal": "Pattern Recognition",
+  "ref": "0031-3203",
+  "issue": "183",
+  "published": "2027-03",
+  "papers": [
+    {
+      "title": "Complementary recommendation with abductive correction in incremental development",
+      "authors": [
+        "Zhen Chen",
+        "Haonan Liao",
+        "Jinyu Chen",
+        "Dianlong You"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Complementarity (molecular biology)",
+        "Abductive reasoning",
+        "Limiting",
+        "Key (lock)",
+        "Set (abstract data type)",
+        "Development (topology)",
+        "Combinatorial explosion",
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114785",
+      "doi": "10.1016/j.patcog.2026.114785",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Structured sparse representation learning with locality-preserving strict sparsity and spatially adaptive geometry",
+      "authors": [
+        "Jing Li",
+        "Minghui Xu",
+        "Jinjia Wang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Sparse approximation",
+        "Representation (politics)",
+        "Pattern recognition (psychology)",
+        "Feature learning",
+        "Sparse matrix",
+        "Artificial intelligence",
+        "Computer science",
+        "Algorithm",
+        "Computer vision",
+        "Mathematics"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114878",
+      "doi": "10.1016/j.patcog.2026.114878",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Historical document restoration via an Adversarial Frequency-aware Guidance Network",
+      "authors": [
+        "Nanfeng Jiang",
+        "Ziyu Li",
+        "Liqun Lin",
+        "Ting Zhang",
+        "Shunzhou Wang",
+        "Xu-Yao Zhang",
+        "Yun Wu",
+        "Da-Han Wang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Adversarial system",
+        "Historical document",
+        "Key (lock)",
+        "Image restoration",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114828",
+      "doi": "10.1016/j.patcog.2026.114828",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Robust adaptation of visual representations for few-shot class-incremental learning via geometric calibration",
+      "authors": [
+        "Tao Zhang",
+        "C.L. Philip Chen",
+        "Xiwen Luo",
+        "Chenguang Yang",
+        "Jiehao Li"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Robustness (evolution)",
+        "Embedding",
+        "Outlier",
+        "Prior probability",
+        "Skew",
+        "Metric (unit)",
+        "Transformation geometry",
+        "Pattern recognition (psychology)",
+        "Calibration",
+        "Artificial intelligence"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114764",
+      "doi": "10.1016/j.patcog.2026.114764",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Dynamic frequency modulation for controllable text-driven image generation",
+      "authors": [
+        "Tiandong Shi",
+        "Chengli Peng",
+        "Ji Qi",
+        "Jiayi Ma",
+        "Ling Zhao"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Weighting",
+        "Feature (linguistics)",
+        "Selection (genetic algorithm)",
+        "Perspective (graphical)",
+        "Consistency (knowledge bases)",
+        "Modulation (music)",
+        "Image (mathematics)",
+        "Function (biology)",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114880",
+      "doi": "10.1016/j.patcog.2026.114880",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "EgoMamba: Fusing hand-guided spatial cues and multi-scale temporal context for efficient egocentric action recognition",
+      "authors": [
+        "Lin Sun",
+        "Qinhan Yang",
+        "Hongshan Yu",
+        "Yan Zheng",
+        "Naveed Akhtar"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Action (physics)",
+        "Action recognition",
+        "Context (archaeology)",
+        "Pattern recognition (psychology)",
+        "Spatial contextual awareness",
+        "Feature (linguistics)",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114897",
+      "doi": "10.1016/j.patcog.2026.114897",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition",
+      "authors": [
+        "Jiajie Li",
+        "Jiaxin Zhang",
+        "Qian Yin",
+        "Qiuli Zhang",
+        "Xin Zheng",
+        "Wenyi Zeng",
+        "Ping Guo"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Transformer",
+        "Decoding methods",
+        "Generalization",
+        "Benchmark (surveying)",
+        "Pattern recognition (psychology)",
+        "Key (lock)",
+        "Table (database)",
+        "Data structure",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114832",
+      "doi": "10.1016/j.patcog.2026.114832",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "HiFi-CLIP: High-fidelity projection and attribute alignment for 3D zero-shot classification",
+      "authors": [
+        "Honggang Zhang",
+        "Xu Zhang",
+        "Dawei Tu",
+        "Zhijie Hua"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Projection (relational algebra)",
+        "Pattern recognition (psychology)",
+        "Projection method",
+        "Oblique projection",
+        "Feature (linguistics)",
+        "Artificial intelligence",
+        "Computer science",
+        "Computer vision"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114887",
+      "doi": "10.1016/j.patcog.2026.114887",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "ME-PDT: Multi-Expert Progressive Distribution Transition for source-free object detection",
+      "authors": [
+        "Wenzhang Zhou",
+        "Caiyu Zhang",
+        "Yongsheng Yu",
+        "Baojie Fan",
+        "Ruyi Ji",
+        "Jing Liu"
+      ],
+      "abstract": "",
+      "keywords": [],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114705",
+      "doi": "10.1016/j.patcog.2026.114705",
+      "issue": "183",
+      "text_source": "title",
+      "source": "crossref"
+    },
+    {
+      "title": "Multi-scale attention-gated recurrent unit network for image fusion",
+      "authors": [
+        "Mingliang Gao",
+        "Wenhao Song",
+        "Jinfeng Pan",
+        "Fei Huang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Image fusion",
+        "Image (mathematics)",
+        "Fusion",
+        "Image processing",
+        "Pattern recognition (psychology)",
+        "Unit (ring theory)",
+        "Artificial intelligence",
+        "Computer vision",
+        "Computer science"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114889",
+      "doi": "10.1016/j.patcog.2026.114889",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Hybrid Augmented multi-scale contrastive self-supervised learning for underwater acoustic target recognition",
+      "authors": [
+        "Jiangshan Wang",
+        "Hongchen Luo",
+        "Guanghui Zhang",
+        "Pengcheng Song",
+        "Jiao Wang",
+        "Ying Wang",
+        "Zhigang Sun",
+        "Sibo Gao"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Underwater",
+        "Contrastive analysis",
+        "Pattern recognition (psychology)",
+        "Feature extraction",
+        "Artificial neural network",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision",
+        "Speech recognition"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114861",
+      "doi": "10.1016/j.patcog.2026.114861",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Dynamic scene self-supervised monocular depth estimation based on multi-branch collaborative optimization",
+      "authors": [
+        "Jia Liu",
+        "Guorui Lu",
+        "Yiyang Wang",
+        "Lina Wei",
+        "Dapeng Chen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Monocular",
+        "Reprojection error",
+        "Image warping",
+        "Optical flow",
+        "Feature (linguistics)",
+        "Dynamic time warping",
+        "Motion estimation",
+        "Filter (signal processing)",
+        "Masking (illustration)",
+        "Computer science"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114891",
+      "doi": "10.1016/j.patcog.2026.114891",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "CausalManifoldNet: Reachability-guided sparse interaction and road-aligned modeling for joint motion forecasting",
+      "authors": [
+        "Yang Zhang"
+      ],
+      "abstract": "",
+      "keywords": [],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114793",
+      "doi": "10.1016/j.patcog.2026.114793",
+      "issue": "183",
+      "text_source": "title",
+      "source": "crossref"
+    },
+    {
+      "title": "A survey on foundation model-driven video anomaly understanding",
+      "authors": [
+        "Wanshun Su",
+        "Ke Tang",
+        "Dingyi Liu",
+        "Peng Wu",
+        "Qingsen Yan",
+        "Guansong Pang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Foundation (evidence)",
+        "Anomaly detection",
+        "Anomaly (physics)",
+        "Computer science",
+        "Artificial intelligence",
+        "Data science"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114890",
+      "doi": "10.1016/j.patcog.2026.114890",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Semantic-guided data augmentation for self-supervised visual pattern learning: Leveraging foundation model priors",
+      "authors": [
+        "Tianjian Zhou",
+        "Jie Jiang",
+        "Yishan Li",
+        "Lixin Zhan",
+        "Rui Qi",
+        "Liang Bai"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Discriminative model",
+        "Generative model",
+        "Generative grammar",
+        "Representation (politics)",
+        "Prior probability",
+        "Granularity",
+        "Object (grammar)",
+        "Semantic data model",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2027-03",
+      "url": "https://doi.org/10.1016/j.patcog.2026.114822",
+      "doi": "10.1016/j.patcog.2026.114822",
+      "issue": "183",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    }
+  ],
+  "source": "crossref",
+  "diagnostics": [
+    "OpenAlex 补全: 摘要 0 篇, 关键词 13 篇"
+  ],
+  "ok": true,
+  "degraded": false,
+  "captured_at": "2026-09-17T19:01:41+08:00",
+  "capture_note": "normalized from real online adapter response"
+}

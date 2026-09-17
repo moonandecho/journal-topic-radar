@@ -1,0 +1,8 @@
+# 阈值运行时可调；修改后无需改代码。
+# embedding 使用题目给定/常用语义阈值；lexical 使用 scripts/calibrate_lexical.py 在 fixtures 真实样本上的标定结果。
+embedding:
+  strong: 0.75
+  weak: 0.60
+lexical:
+  strong: 0.30
+  weak: 0.11

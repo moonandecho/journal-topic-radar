@@ -1,0 +1,445 @@
+{
+  "journal": "IEEE Transactions on Knowledge and Data Engineering",
+  "ref": "1041-4347",
+  "issue": "38(10)",
+  "published": "2026-10",
+  "papers": [
+    {
+      "title": "Large Language Model Empowered Recommendation Meets All-Domain Continual Pre-Training",
+      "authors": [
+        "Haokai Ma",
+        "Yunshan Ma",
+        "Ruobing Xie",
+        "Lei Meng",
+        "Jialie Shen",
+        "Xingwu Sun",
+        "Zhanhui Kang",
+        "Tat-Seng Chua"
+      ],
+      "abstract": "Recent research efforts have investigated how to integrate Large Language Models (LLMs) into recommendation, capitalizing on their semantic comprehension and open-world knowledge for user behavior understanding. These approaches predominantly employ supervised fine-tuning on single-domain user interactions to adapt LLMs for specific recommendation tasks. However, they typically encounter dual challenges: the mismatch between general language representations and domain-specific preference patterns, as well as the limited adaptability to multi-domain recommendation scenarios. To bridge these gaps, we introduce CPRec -- an All-domain Continual Pre-Training framework for Recommendation -- designed to holistically align LLMs with universal user behaviors through the continual pre-training paradigm. Specifically, we first design a unified prompt template and organize users' multi-domain behaviors into domain-specific behavioral sequences and all-domain mixed behavioral sequences that emulate real-world user decision logic. To optimize behavioral knowledge infusion, we devise a Warmup-Stable-Annealing learning rate schedule tailored for the continual pre-training paradigm in recommendation to progressively enhance the LLM's capability in knowledge adaptation from open-world knowledge to universal recommendation tasks. To evaluate the effectiveness of our CPRec, we implement it on a large-scale dataset covering seven domains and conduct extensive experiments on five real-world datasets from two distinct platforms. Experimental results confirm that our continual pre-training paradigm significantly mitigates the semantic-behavioral discrepancy and achieves state-of-the-art performance in all recommendation scenarios. The source code will be released upon acceptance.",
+      "keywords": [
+        "Comprehension",
+        "Adaptability",
+        "Schedule",
+        "Adaptation (eye)",
+        "Bridge (graph theory)",
+        "Preference",
+        "User modeling",
+        "Flexibility (engineering)",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717059",
+      "doi": "10.1109/tkde.2026.3717059",
+      "issue": "38(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "BPO: Backdoor Purification via Overwriting",
+      "authors": [
+        "Lin Huang",
+        "Tinghua Wang",
+        "Leo Yu Zhang",
+        "Chuan Qin",
+        "Xinpeng Zhang"
+      ],
+      "abstract": "",
+      "keywords": [],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717987",
+      "doi": "10.1109/tkde.2026.3717987",
+      "issue": "38(10)",
+      "text_source": "title",
+      "source": "crossref"
+    },
+    {
+      "title": "Coalition-Based Knowledge Graph Learning for Actual Controller Disclosure",
+      "authors": [
+        "Qingying Xu",
+        "Liang Hong",
+        "Mingxuan Shen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Knowledge graph",
+        "Graph",
+        "Controller (irrigation)",
+        "Knowledge-based systems",
+        "Graph theory",
+        "Control (management)",
+        "Data modeling",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3721243",
+      "doi": "10.1109/tkde.2026.3721243",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Efficient Maximal Directed Plex Enumeration With Worst-Case Time Guarantee",
+      "authors": [
+        "Yukai Sun",
+        "Shuohao Gao",
+        "Kaiqiang Yu",
+        "Shengxin Liu",
+        "Cheng Long",
+        "Xun Zhou",
+        "Raymond Chi-Wing Wong"
+      ],
+      "abstract": "Directed graphs are essential for modeling real-world networks, where edge directionality encodes critical information. Cohesive subgraphs in directed graphs, such as directed$(k,\\ell )$-plexes (DPlexes), are widely used in applications including community detection, anomaly detection, and functional group discovery. A DPlex is defined as a subgraph in which each vertex disconnects at most$k$vertices and is meanwhile not pointed to by at most$\\ell$vertices. However, enumerating all maximal DPlexes is computationally challenging, as finding even one maximum DPlex is NP-hard. Furthermore, existing algorithms for undirected graphs cannot be directly applied to directed graphs due to the complexities introduced by edge directionality. To address these challenges, we propose an efficient branch-and-bound algorithm,DPEnum, which incorporates two key techniques: (1) a pivot technique based on a new concept,out-degeneracy($\\delta$), which quantifies sparseness in directed graphs and satisfies$\\delta \\lt n$, where$n$is the number of vertices; and (2) a preprocessing technique that removesreducible verticesand directly identifies several maximal DPlexes.DPEnumachieves a worst-case time complexity of$O^*(\\alpha _{k}^\\delta )$, where$O^*$suppresses the polynomial factors and$\\alpha _{k} \\lt 2$, outperforming the naive$O^*(2^{n})$. Additionally, we proposeLDPEnumfor enumerating large maximal DPlexes with at least$s$vertices, which uses the upper-bounding technique to prune search branches. Extensive experiments on real-world datasets show that our algorithms achieve up to four orders of magnitude speedup compared to the baseline.",
+      "keywords": [
+        "Enumeration",
+        "Algorithm design",
+        "Electronic mail",
+        "Processor scheduling",
+        "Approximation algorithm",
+        "Computer science",
+        "Algorithm"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3701661",
+      "doi": "10.1109/tkde.2026.3701661",
+      "issue": "38(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "RWKV-TS+: Adaptive Long-Range Prompt for Multiple Time Series Tasks",
+      "authors": [
+        "Huaxin Pang",
+        "Xiaoxia Xie",
+        "Yu Li",
+        "Zhuobin Jiang",
+        "Xiaoping Zhang",
+        "Huaqi Zhang",
+        "Shikui Wei",
+        "Yao Zhao",
+        "Yufeng Zhao"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Series (stratigraphy)",
+        "Time series",
+        "Algorithm design",
+        "Data modeling",
+        "Signal processing",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717305",
+      "doi": "10.1109/tkde.2026.3717305",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Robustly Grounding LLM-Derived Meta-Causality for Causal Discovery",
+      "authors": [
+        "Xiangyu Wang",
+        "Taiyu Ban",
+        "Lyuzhou Chen",
+        "Yanze Gao",
+        "Xingjian Lin",
+        "Xiren Zhou",
+        "Derui Lyu",
+        "Huanhuan Chen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Robustness (evolution)",
+        "Data modeling",
+        "Key (lock)",
+        "Identification (biology)",
+        "Algorithm design",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3718207",
+      "doi": "10.1109/tkde.2026.3718207",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Fairness in Augmented Graph Learning: A Survey",
+      "authors": [
+        "Renqiang Luo",
+        "Huafei Huang",
+        "Ziqi Xu",
+        "Xikun Zhang",
+        "Enyan Dai",
+        "Bo Yang",
+        "Feng Xia"
+      ],
+      "abstract": "",
+      "keywords": [],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3719932",
+      "doi": "10.1109/tkde.2026.3719932",
+      "issue": "38(10)",
+      "text_source": "title",
+      "source": "crossref"
+    },
+    {
+      "title": "DyG-Pred: Spatial-Temporal Dynamic Graph Replay for Event Prediction With Gated Explicit-Implicit Graph Dependency Fusion",
+      "authors": [
+        "Zhongfeng Chen",
+        "Huan Rong",
+        "Zhenyu Lu",
+        "Li Jin",
+        "Quanbo Ge",
+        "Anouar Imel",
+        "Jie Sun"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Graph",
+        "Dependency (UML)",
+        "Dependency graph",
+        "Fusion",
+        "Event (particle physics)",
+        "Graph theory",
+        "Computer science",
+        "Artificial intelligence",
+        "Algorithm"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3715213",
+      "doi": "10.1109/tkde.2026.3715213",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Stochastic Process Mining: Characteristics and Challenges",
+      "authors": [
+        "Sander J. J. Leemans",
+        "Xixi Lu",
+        "David Chapela-Campa",
+        "Claudio Di Ciccio",
+        "Izack Cohen",
+        "Benoit Depaire",
+        "Stephan Fahrenkrog-Petersen",
+        "Avigdor Gal",
+        "Massimiliano de Leoni",
+        "Henrik Leopold",
+        "Orlenys Lopez-Pintado",
+        "Felix Mannhardt",
+        "Fabrizio Maria Maggi",
+        "Niels Martin",
+        "Marco Montali",
+        "Marco Pegoraro",
+        "Artem Polyvyanyy",
+        "Arik Senderovich",
+        "Sam Verboven",
+        "Akio Watanabe",
+        "Matthias Weidlich",
+        "Jan-Martijn E. M. van der Werf"
+      ],
+      "abstract": "Process mining aims to obtain insights from event logs through the automated analyses of recorded process data in information systems, with the ultimate aim to improve business processes running in organisations. However, real-life event logs are often incomplete, noisy, or ambiguous, such as missing timestamps or having ambiguous event labels, which traditional deterministic models cannot capture. Recent process mining developments have considered uncertainty in process mining artifacts more explicitly: in logs of recorded process behaviour, uncertainty may implicitly or explicitly influence process mining outcomes, while in process models, explicit uncertainty allows analysts to interpret and value outcomes. In this paper, we provide a conceptual foundation for uncertainty in process mining by introducing a four-level specification that separately addresses uncertainty in log attributes (e.g., activity labels of events, frequencies) and model elements (e.g., service times, read guards). For each type of uncertainty, we illustrate the levels with concrete examples to help understanding and application. We then provide a structured overview of the state of the art in stochastic process mining, classified using our specification, and present key open research challenges.",
+      "keywords": [
+        "Process (computing)",
+        "Stochastic process",
+        "Process control",
+        "Markov process",
+        "Data modeling",
+        "Process modeling",
+        "Computer science"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3715402",
+      "doi": "10.1109/tkde.2026.3715402",
+      "issue": "38(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Forecasting Realized Volatility of Stock Market: A Novel Model Based on VMD and Local-Global Fusion Mechanism",
+      "authors": [
+        "Mengxin Ou",
+        "Siyuan Zhang",
+        "Bart Baesens",
+        "Yuejin Tan",
+        "Xin Lu"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Fusion",
+        "Stock (firearms)",
+        "Volatility (finance)",
+        "Sensor fusion",
+        "Realized variance",
+        "Data modeling",
+        "Computer science"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3718370",
+      "doi": "10.1109/tkde.2026.3718370",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Data and Knowledge Dual-Driven Text Embedding Approaches: A Survey",
+      "authors": [
+        "Xiaoyin Chen",
+        "Jiaqing Zhan",
+        "Jiayi Lin",
+        "Han Liu",
+        "Qin Zhang",
+        "Junyang Chen",
+        "Hao Chen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Embedding",
+        "Knowledge-based systems",
+        "Data modeling",
+        "Knowledge graph",
+        "Knowledge representation and reasoning",
+        "Computer science",
+        "Information retrieval",
+        "Artificial intelligence",
+        "Natural language processing"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3721883",
+      "doi": "10.1109/tkde.2026.3721883",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Impute On-Demand: Adaptive Correlated Time Series Imputation for Changing Environments",
+      "authors": [
+        "Zhichen Lai",
+        "Huan Li",
+        "Dalin Zhang",
+        "Dong Gong",
+        "Lina Yao",
+        "Christian S. Jensen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Imputation (statistics)",
+        "Time series",
+        "Series (stratigraphy)",
+        "Data modeling",
+        "Missing data",
+        "Computer science",
+        "Data mining",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717792",
+      "doi": "10.1109/tkde.2026.3717792",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "PGMiner: A Load-Aware Dynamic Graph Pattern Matching Approach on GPUs",
+      "authors": [
+        "Yu Zhang",
+        "Yuluo Guo",
+        "Fubing Mao",
+        "Yongchao Liu",
+        "Chuntao Hong",
+        "Haikun Liu",
+        "Xiaofei Liao",
+        "Hai Jin"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Pattern matching",
+        "Graph",
+        "Matching (statistics)",
+        "Graph theory",
+        "Algorithm design",
+        "Graph rewriting",
+        "Computer science",
+        "Algorithm"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3718204",
+      "doi": "10.1109/tkde.2026.3718204",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Auction-Aware Crowdsourced Parcel Assignment for Cooperative Urban Logistics",
+      "authors": [
+        "Guanglei Zhu",
+        "Jiawen Zhang",
+        "Xuhui Song",
+        "Shuo He",
+        "Yafei Li",
+        "Jianliang Xu",
+        "Mingliang Xu"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Crowdsourcing",
+        "Data modeling",
+        "Urban planning",
+        "Production (economics)",
+        "Key (lock)",
+        "Computer science"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717808",
+      "doi": "10.1109/tkde.2026.3717808",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "SimCFT: Trajectory Similarity Computation via Dynamic Status Features and Noisy Point Mining",
+      "authors": [
+        "Hongzhen Xiang",
+        "Chenxu Wang",
+        "Tianyi Li",
+        "Shuyan Liu",
+        "Peng Han",
+        "Yushuai Li",
+        "Wei Wang",
+        "Christian S. Jensen"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Computation",
+        "Trajectory",
+        "Noisy data",
+        "Similarity (geometry)",
+        "Point (geometry)",
+        "Pattern recognition (psychology)",
+        "Noise (video)",
+        "Computer science",
+        "Artificial intelligence",
+        "Data mining"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tkde.2026.3717759",
+      "doi": "10.1109/tkde.2026.3717759",
+      "issue": "38(10)",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    }
+  ],
+  "source": "crossref",
+  "diagnostics": [
+    "OpenAlex 补全: 摘要 3 篇, 关键词 13 篇"
+  ],
+  "ok": true,
+  "degraded": false,
+  "captured_at": "2026-09-17T19:01:50+08:00",
+  "capture_note": "normalized from real online adapter response"
+}

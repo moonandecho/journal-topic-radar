@@ -1,0 +1,424 @@
+{
+  "journal": "Information Sciences",
+  "ref": "0020-0255",
+  "issue": "761",
+  "published": "2027-02",
+  "papers": [
+    {
+      "title": "An empirical study of retrieval-augmented diffusion language models for generative commonsense reasoning",
+      "authors": [
+        "Yubo Fang",
+        "Hai-Tao Yu",
+        "Hideo Joho",
+        "Sumio Fujita",
+        "Yan Ge",
+        "Chao Lei"
+      ],
+      "abstract": "Generative commonsense reasoning (GCR) remains challenging for intelligent systems, as large language models (LLMs) rely primarily on parametric knowledge and often lack sufficient commonsense information. Although retrieval-augmented generation (RAG) alleviates this limitation by incorporating external knowledge, it has been studied primarily with autoregressive language models, motivating an examination of retrieval augmentation in diffusion-based generation. In this work, we present GRADi4GCR 1 as a systematic empirical study of retrieval-augmented diffusion generation for GCR. GRADi4GCR defines a common retrieval-augmented conditional-generation formulation that retrieves commonsense knowledge from an external corpus and incorporates it throughout diffusion-based generation. By instantiating this formulation with continuous, latent, and discrete diffusion language model (DLM) backbones, GRADi4GCR enables within-backbone evaluation of retrieval augmentation and characterizes knowledge integration across the three DLM paradigms. Experiments on two GCR benchmarks show consistent gains from retrieval augmentation across all evaluated DLM backbones under matched within-backbone comparisons, while absolute cross-model scores are reported descriptively. Additional analyses examine generation diversity and fluency, retrieval strategies, and qualitative generation behavior. These findings motivate further investigation of DLMs as an alternative paradigm for retrieval-augmented commonsense reasoning.",
+      "keywords": [
+        "Commonsense reasoning",
+        "Generative grammar",
+        "Empirical research",
+        "Commonsense knowledge",
+        "Language model",
+        "Parametric statistics",
+        "Computer science",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Generative model"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124147",
+      "doi": "10.1016/j.ins.2026.124147",
+      "issue": "761",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "An integrated analytical framework for natural gas pricing: combining multi-source drivers, forecast enhancement, and model interpretability",
+      "authors": [
+        "Yilin Zhou",
+        "Jianzhou Wang",
+        "Jialu Gao",
+        "Kang Wang",
+        "Helen Lu"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Interpretability",
+        "Natural gas",
+        "Natural (archaeology)",
+        "Computer science",
+        "Data mining",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124144",
+      "doi": "10.1016/j.ins.2026.124144",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Class-incremental feature selection based on neighborhood probabilistic rough sets",
+      "authors": [
+        "Xiaoling Yang",
+        "Yao Li",
+        "Hongmei Chen",
+        "Xianyong Zhang",
+        "Shan Feng"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Rough set",
+        "Probabilistic logic",
+        "Feature selection",
+        "Pattern recognition (psychology)",
+        "Selection (genetic algorithm)",
+        "Artificial intelligence",
+        "Computer science",
+        "Feature (linguistics)",
+        "Mathematics",
+        "Data mining"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124134",
+      "doi": "10.1016/j.ins.2026.124134",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Toward interpretable prediction of coal mine gas leaks using a multi-channel temporal CapsNet driven by self-attention routing",
+      "authors": [
+        "Peizhang Li",
+        "Qing Fei",
+        "Jian Xi",
+        "Lujie Zhou",
+        "Lei Guan"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Coal mining",
+        "Routing (electronic design automation)",
+        "Coal",
+        "Feature (linguistics)",
+        "Pattern recognition (psychology)",
+        "Computer science",
+        "Data mining",
+        "Geology",
+        "Mining engineering"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124120",
+      "doi": "10.1016/j.ins.2026.124120",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Multi-scenario CTR prediction with LLM-augmented semantic graphs and anti-polarization experts",
+      "authors": [
+        "Shangyu Meng",
+        "Haowen Zheng",
+        "Ao Pu",
+        "Xingtao Yan",
+        "Jinling Wei"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Knowledge graph",
+        "Semantics (computer science)",
+        "Semantic Web",
+        "Graph",
+        "Computer science",
+        "Artificial intelligence",
+        "Natural language processing"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124131",
+      "doi": "10.1016/j.ins.2026.124131",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Attribute evidence decomposition for generalized zero-shot learning",
+      "authors": [
+        "Zeyu Wang",
+        "Feng Wang",
+        "Jiye Liang",
+        "Liang Bai"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Decomposition",
+        "Feature (linguistics)",
+        "Perspective (graphical)",
+        "Decomposition method (queueing theory)",
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematics"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124141",
+      "doi": "10.1016/j.ins.2026.124141",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Single image reflection removal with patch reflectance prior",
+      "authors": [
+        "Dongshen Han",
+        "Heechan Yoon",
+        "Hyukmin Kwon",
+        "Hyun-Cheol Kim",
+        "Hyon-Gon Choo",
+        "Seungkyu Lee",
+        "Chaoning Zhang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Reflection (computer programming)",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision",
+        "Intensity (physics)",
+        "Image (mathematics)",
+        "Optics",
+        "Physics"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124114",
+      "doi": "10.1016/j.ins.2026.124114",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "UniCSL: A unified federated learning framework with client-specific LS-DC loss",
+      "authors": [
+        "Shuvo Saha Roy",
+        "Sambhav Jain",
+        "Reshma Rastogi"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Federated learning",
+        "Key (lock)",
+        "Distributed database",
+        "Scheme (mathematics)",
+        "Computer science"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124118",
+      "doi": "10.1016/j.ins.2026.124118",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Hierarchical feature selection based on label correlation and instance correlation",
+      "authors": [
+        "Tongxin Shu",
+        "Lei Guo",
+        "Yaojin Lin"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Pattern recognition (psychology)",
+        "Feature selection",
+        "Correlation",
+        "Curse of dimensionality",
+        "Regularization (linguistics)",
+        "Feature (linguistics)",
+        "Hierarchy",
+        "Dimensionality reduction",
+        "Artificial intelligence",
+        "Computer science"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124100",
+      "doi": "10.1016/j.ins.2026.124100",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "SR-MCUR: A scalable and robust CUR decomposition method for large-scale matrix approximation",
+      "authors": [
+        "Muhammad A.A. Abdelgawad",
+        "Abdurrashid Ibrahim Sanka",
+        "Ray C.C. Cheung",
+        "Hong Yan"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Interpretability",
+        "Scalability",
+        "Row",
+        "Interpolation (computer graphics)",
+        "Matrix (chemical analysis)",
+        "Matrix decomposition",
+        "Computer science",
+        "Algorithm",
+        "Sampling (signal processing)",
+        "Row and column spaces"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124112",
+      "doi": "10.1016/j.ins.2026.124112",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Static and dynamic jamming games over wireless channels with mobile strategic players",
+      "authors": [
+        "Giovanni Perin",
+        "Leonardo Badia"
+      ],
+      "abstract": "We study a wireless jamming problem consisting of the competition between a legitimate receiver and a jammer, modeled as a zero-sum game where the value to maximize/minimize is the channel capacity at the receiver's side. Most approaches in the literature consider the two players to be stationary nodes. Instead, we investigate what happens when they can change location, specifically moving along a linear geometry. We frame this at first as a static game, which can be solved in closed form, and subsequently we extend it to a dynamic game under three different versions concerning completeness/perfection of mutual information about the adversary's position, corresponding to different assumptions of concealment/sequentiality of the moves, respectively. We first provide some theoretical conditions that hold for the static game and also help identify good strategies valid under any setup, including dynamic games. Because dynamic games, although more realistic, have a significantly larger strategy space, we use reinforcement learning to obtain efficient strategies that lead to equilibrium outcomes. We show how theoretical findings can be used to train smart agents to play the game and validate our approach in practical settings.",
+      "keywords": [
+        "Computer science",
+        "Jamming",
+        "Sequential game",
+        "Strategy",
+        "Exploit",
+        "Wireless",
+        "Adversary",
+        "Channel (broadcasting)",
+        "Reinforcement learning",
+        "Bayesian game"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124142",
+      "doi": "10.1016/j.ins.2026.124142",
+      "issue": "761",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "HIRO: Historical intent reasoning with observation for multi-agent reinforcement learning",
+      "authors": [
+        "Jie Chen",
+        "Xiwen Zhang",
+        "Ming-gang Gan",
+        "Keyi Guan"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Reinforcement learning",
+        "Reinforcement",
+        "Control (management)",
+        "Error-driven learning",
+        "Computer science",
+        "Artificial intelligence",
+        "Psychology",
+        "Cognitive psychology"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124125",
+      "doi": "10.1016/j.ins.2026.124125",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Event-triggered fault-tolerant learning based on simplified ADP for heterogeneous nonlinear multi-agent systems with input constraints",
+      "authors": [
+        "Yuliang Cai",
+        "Yuxuan Liu",
+        "Qinglai Wei",
+        "Ruicheng Ma",
+        "Qiang He"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Nonlinear system",
+        "Convergence (economics)",
+        "Control theory (sociology)",
+        "Mathematical proof",
+        "Stability (learning theory)",
+        "Observer (physics)",
+        "Actuator",
+        "Artificial neural network",
+        "Lyapunov function",
+        "Computer science"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124139",
+      "doi": "10.1016/j.ins.2026.124139",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Geometry as a shield: High-utility privacy preservation via manifold-aware feature compactness",
+      "authors": [
+        "Shilin Zhang",
+        "Dong Sun"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Compact space",
+        "Feature (linguistics)",
+        "Set (abstract data type)",
+        "Privacy protection",
+        "Information privacy",
+        "Computational geometry",
+        "Computer science",
+        "Artificial intelligence",
+        "Theoretical computer science"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124133",
+      "doi": "10.1016/j.ins.2026.124133",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    },
+    {
+      "title": "Towards effective multimodal emotion recognition in conversations via joint multi-graph learning and self-distillation",
+      "authors": [
+        "Hoang Khang Trang",
+        "Bao Quoc Nguyen",
+        "Viet Vinh Khanh Dinh",
+        "Nhut Minh Nguyen",
+        "Nhat Truong Pham",
+        "Phuong-Nam Tran",
+        "Phuong Luu Vo",
+        "Duc Ngoc Minh Dang"
+      ],
+      "abstract": "",
+      "keywords": [
+        "Exploit",
+        "Leverage (statistics)",
+        "Multimodal learning",
+        "Modality (human–computer interaction)",
+        "Conversation",
+        "Representation (politics)",
+        "Multimodality",
+        "Feature learning",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2027-02",
+      "url": "https://doi.org/10.1016/j.ins.2026.124138",
+      "doi": "10.1016/j.ins.2026.124138",
+      "issue": "761",
+      "text_source": "title+keywords",
+      "source": "crossref"
+    }
+  ],
+  "source": "crossref",
+  "diagnostics": [
+    "OpenAlex 补全: 摘要 2 篇, 关键词 15 篇"
+  ],
+  "ok": true,
+  "degraded": false,
+  "captured_at": "2026-09-17T19:01:45+08:00",
+  "capture_note": "normalized from real online adapter response"
+}

@@ -1,0 +1,34 @@
+URL: https://crad.ict.ac.cn/cn/article/current
+HTTP/bytes: 200/205694
+Captured: 2026-09-17T19:04:03+08:00
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cmn-Hans">
+    <head>
+        <meta name="citation_title" content="计算机研究与发展 2026年 63卷 9期"/>
+    	<title>计算机研究与发展 2026年 63卷 9期</title>
+        <meta name="baidu-site-verification" content="codeva-UxzJ2nMp4x" />
+<meta name="keywords" content="计算机, 信息技术, 计算技术, 学术期刊" />
+<meta name="google-site-verification" content="ycVFHgRtzckzTQOS1EAQePcxy8B726dI-VxwV2m8npE" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+<link type="image/x-icon" href="/style/images/custom/favicon.ico" rel="shortcut icon" />
+<link type="text/css" href="/style/css/bootstrap.min.css?t=1783494390078" rel="stylesheet" />
+<link type="text/css" href="/style/css/base.css?t=1783494390078" rel="stylesheet" />
+<link type="text/css" href="/style/css/media.css?t=1783494390078" rel="stylesheet" />
+<link type="text/css" href="/style/css/style.css?t=1783494390078" rel="stylesheet" />
+<script type="text/javascript" src="/style/js/head.min.js?t=1783494390078"></script> 
+<script type="text/javascript" src="/style/js/jquery-3.6.3.min.js?t=1783494390078"></script>
+
+
+
+
+<script type="text/javascript" src="/style/js/template-web.js?t=1783494390078"></script>
+<script type="text/javascript" src="/style/js/dayjs.min.js?t=1783494390078"></script>
+<script type="text/javascript" src="/style/js/rhhz.js?t=1783494390078"></script>
+<!-- DNS 预解析 -->  
+<link rel="dns-prefetch" href="https://cdn.bootcss.com"> 
+<link rel="dns-prefetch" href="https://mathjax.xml-journal.net">  
+<script> var web_common_data={"mainPath":"/","filePath":"/fileJSJYJYFZ/","branchFiles":[],"menu":[{"abbreviation":"shouye","id":2,"isShow":"N","language":"cn","level":1,"name":"首页","openTarget":"_top","urlLink":"/"},{"abbreviation":"qikanjieshao","id":4,"imgPath":"","isShow":"Y","language":"cn","level":1,"name":"期刊介绍","newColumns":[{"abbreviation":"qikanjieanjie","columnNewsTemplate":"","createTime":1669252521000,"extraType":"","id":53,"imgPath":"","isShow":"N","journalId":"ff007540-a7c7-4752-b593-efa08309babb","language":"cn","level":2,"name":"期刊简介","openTarget":"_top","parent":{"abbreviation":"qikanjieshao","columnNewsTemplate":"news_detail.vm"

@@ -1,0 +1,410 @@
+{
+  "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+  "ref": "2162-237X",
+  "issue": "37(9)",
+  "published": "2026-09",
+  "papers": [
+    {
+      "title": "Incomplete Multimodal Federated Learning via Masking and Contrasting Prototypes",
+      "authors": [
+        "Guangyin Bao",
+        "Qi Zhang",
+        "Duoqian Miao",
+        "Zixuan Gong",
+        "Chaochao Chen",
+        "Liang Hu",
+        "Longbing Cao"
+      ],
+      "abstract": "In real-world scenarios, random modality missingness in multimodal federated learning (mFL) poses a significant challenge, diminishing the performance of global model inference. However, existing mFL methods are predominantly limited to simple scenarios that typically involve participant clients restricted to either a single modality or multimodal clients with complete modalities. They employ modality-specific encoders on each client and train modality fusion modules on the server, leading to severe task drift between clients and server, and struggling to generalize effectively in intricate modality-missing scenarios. To this end, we present a novel mFL framework to alleviate the task drift and performance degradation resulting from modality missingness during both training and inference. Inspired by prototype learning using the highly generalized proxy of specific information, we elaborately construct a prototype library to enhance FedAvg-based federated learning (FL). Naturally, we utilize prototypes as masks representing missing modalities to compensate for the missingness of modality information, formulating a task-calibrated training loss and devising a model-agnostic modality-incomplete inference strategy. In addition, a proximal term based on prototype contrastive learning is constructed to integrate interclient global information into each client, therefore enhancing local training. We conduct extensive experiments to evaluate our mFL framework, demonstrating its state-of-the-art performance across a series of missingness settings. Specifically, compared with existing mFL methods, our mFL framework improves inference performance under different modality missingness rates during training and by 23.8% during modality-incomplete inference.",
+      "keywords": [
+        "Masking (illustration)",
+        "Key (lock)",
+        "Federated learning",
+        "Matching (statistics)",
+        "Field (mathematics)",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3658522",
+      "doi": "10.1109/tnnls.2026.3658522",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Topology-Optimal Multiple Gossip Steps for Decentralized Federated Learning via Gossip Tensor",
+      "authors": [
+        "Yan Zhong",
+        "Lei Ma",
+        "Xiaomeng Yan"
+      ],
+      "abstract": "Decentralized federated learning (DFL) has gained significant attention as a framework for analyzing large-scale data distributed across multiple sites, where communication between sites is constrained by a decentralized graph structure. Due to privacy concerns and high communication costs, reducing the number of communication rounds in DFL has become an important area of research. This article investigates the effects of the decentralized graph's topology on the convergence rate of DFL algorithms and introduces a novel tensor-based multiple-gossip-steps (T-MGS) method to optimize communication efficiency from the topology aspect. The core idea of this method is to use gossip tensors to guide the information flow between sites and enable dynamic adjustments to the transmitted content at each communication step without increasing its volume. The proposed method minimizes the second-largest absolute eigenvalue of the equivalent gossip matrix, a key factor influencing convergence speed. Experimental results on both simulated and real datasets demonstrate that the proposed T-MGS outperforms existing strategies in terms of communication efficiency, reducing the number of communication rounds without compromising model accuracy.",
+      "keywords": [
+        "Gossip",
+        "Gossip protocol",
+        "Tensor (intrinsic definition)",
+        "Scalability",
+        "Scheme (mathematics)",
+        "Class (philosophy)",
+        "Computer science",
+        "Theoretical computer science"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3670013",
+      "doi": "10.1109/tnnls.2026.3670013",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Prompt Then Refine: Prompt-Free SAM-Enhanced Collaborative Learning Network for Detecting Salient Objects in Underwater Images",
+      "authors": [
+        "Wujie Zhou",
+        "Beibei Tang",
+        "Xiena Dong",
+        "Fangfang Qiang"
+      ],
+      "abstract": "RGB-depth underwater salient object detection (USOD) poses considerable challenges, such as uneven lighting, visual interference, and image blur, which limit the effectiveness of traditional approaches. The segment anything model (SAM), known for its robust segmentation capabilities, offers a promising alternative. However, SAM depends on prompt labels (e.g., points, boxes, and masks) to perform effective resources typically unavailable in USOD datasets. To address this, we propose SAM-CLNet, a prompt-free, SAM-enhanced collaborative learning network comprising three main components: 1) SAM; 2) a mask prompt generator (MPG); and 3) a region-aware attention collaborative learning loss (RCL). In our framework, pseudo-mask prompts generated by MPG were used as input prompts for SAM, helping to offset performance degradation due to the absence of manual labels. Simultaneously, RCL leveraged high-quality SAM predictions to refine MPG, enhancing its feature extraction while minimizing the impact of low-quality pseudo-prompts on SAM. This cyclic feedback mechanism facilitated mutual improvement in detection accuracy. In addition, we introduced a U-Adapter module to adapt SAM for underwater imagery and incorporated a frequency cross-attention fusion module in MPG to integrate RGB and depth information. The region-aware attention in RCL further targeted challenging regions by comparing SAM's predictions with MPG's pseudo-mask. Experiments on the USOD10K and USOD datasets demonstrated that SAM-CLNet outperformed existing methods and generalized effectively across five public salient object detection (SOD) benchmarks. Code is available at https://github.com/BeibeiIsFreshman/SAM-USOD.",
+      "keywords": [
+        "Salient",
+        "Collaborative learning",
+        "Underwater",
+        "Collaborative network",
+        "Feature (linguistics)",
+        "Perspective (graphical)",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3673090",
+      "doi": "10.1109/tnnls.2026.3673090",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Unsupervised Deep Spectral Basis Learning for Generalized Eigendecomposition and Spectral Embedding",
+      "authors": [
+        "Diya Sun",
+        "Yuru Pei",
+        "Tianbing Wang"
+      ],
+      "abstract": "Spectral embedding has been widely used in statistical learning and geometric processing. Existing deep neural networks (DNNs) construct nonlinear mappings from node descriptors to embedding coordinates, relieving the scalability and generalization problems in traditional eigendecomposition-based graph embedding. However, additional QR-based orthogonalization or affine transformation is required for training deep spectral embedding models. In this work, we introduce an unsupervised spectral basis learning (SBL) framework for generalized eigendecomposition of graph matrices, benefiting from linear graph convolutions (LGCs) for spectral embedding. We design a novel spectral embedding criterion to learn the spectral basis in an analogous way to iterative power deflation, avoiding additional QR-based orthogonalization or transformations for spectral bases estimation. However, the proposed approach enables the lining up of spectral bases between graphs, which relieves eigenvector switching and facilitates graph matching. We showcase the efficacy of the proposed SBL for generalized graph eigendecomposition with performance gains over state-of-the-art deep spectral embedding methods. The source code is available at https://github.com/DYS2108/SBL.",
+      "keywords": [
+        "Spectral graph theory",
+        "Embedding",
+        "Eigendecomposition of a matrix",
+        "Orthogonalization",
+        "Graph",
+        "Eigenvalues and eigenvectors",
+        "Affine transformation",
+        "Pattern recognition (psychology)",
+        "Deep learning",
+        "Mathematics"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3660929",
+      "doi": "10.1109/tnnls.2026.3660929",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "A Neural-Network-Assisted Approach to Recursive State Estimation for Energy Harvesting Complex Networks With Unknown Nonlinearities",
+      "authors": [
+        "Yuhan Zhang",
+        "Zidong Wang",
+        "Lei Zou",
+        "Junping Du",
+        "Shuang-Hua Yang"
+      ],
+      "abstract": "This article investigates the problem of partial node-based (PNB) recursive state estimation for complex networks (CNs) with unknown nonlinearities and energy harvesting sensors. To mitigate the effects of energy constraints, an energy replenishment mechanism is employed, in which a group of energy harvesting sensors captures energy from the surrounding environment. These sensors transmit measurement outputs to remote state estimators only when their current energy levels are sufficient to cover the transmission energy costs. By exploiting the universal approximation property, neural networks (NNs) are utilized to approximate the unknown nonlinearities of the CNs. An NN-based recursive estimation algorithm is developed to simultaneously generate the estimates of the system state and the unknown nonlinearities. Following a specific set of recursions, the recursive state estimator gains and the NN weight (NNW) tuning parameters are calculated in a unified framework. Finally, the effectiveness of the developed recursive estimation algorithm is demonstrated through a simulation example.",
+      "keywords": [
+        "Estimator",
+        "Energy (signal processing)",
+        "State (computer science)",
+        "Set (abstract data type)",
+        "Control theory (sociology)",
+        "Energy harvesting",
+        "Artificial neural network",
+        "Transmission (telecommunications)",
+        "Computer science",
+        "Cover (algebra)"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3669864",
+      "doi": "10.1109/tnnls.2026.3669864",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Accelerated Reinforcement Learning With Verifiable Excitation for Cubic Convergence",
+      "authors": [
+        "Jiacheng Wu",
+        "Changyun Wen",
+        "Yang Zhu"
+      ],
+      "abstract": "This article proposes and analyzes an accelerated reinforcement learning (RL) algorithm for discrete-time linear systems with unknown dynamics. The method achieves cubic convergence, improving upon the quadratic rates of existing policy iteration (PI)-based RL algorithms, and it does not rely on persistency of excitation (PE). The value function matrix is computed through a midpoint-centered Lyapunov equation, which provides a third-order Newton-type update and ensures fast convergence. To enable data-driven implementation without PE, we introduce a verifiable excitation condition based on filter outputs. This condition is easily testable online and guarantees that the collected data are sufficiently informative for solving the required least-squares equations. Within this framework, we further propose a data-driven procedure to compute an initial admissible control gain, where a bisection rule is used to determine the maximal feasible discount factor. Theoretical analysis establishes cubic convergence of the accelerated algorithm and proves the effectiveness of the designed excitation condition. Finally, we verify the proposed method through Monte Carlo experiments and comparative simulations with existing methods.",
+      "keywords": [
+        "Convergence (economics)",
+        "Verifiable secret sharing",
+        "Control theory (sociology)",
+        "Reinforcement learning",
+        "Excitation",
+        "Stability (learning theory)",
+        "Applied mathematics",
+        "Mathematics",
+        "Computer science"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3674477",
+      "doi": "10.1109/tnnls.2026.3674477",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Robust Image-Based Visual Servoing Formation Control for Quadrotors Without Communication via Reinforcement Learning",
+      "authors": [
+        "Xinning Yi",
+        "Hao Liu",
+        "Haibin Duan",
+        "Biao Luo",
+        "Shan Zuo"
+      ],
+      "abstract": "The image-based visual servoing (IBVS) formation control problem for quadrotors in global navigation satellite system (GNSS)-denied and communication-degraded environments is addressed via reinforcement learning (RL) algorithms. A robust leader-follower formation control method is proposed to achieve formation control, and the follower quadrotors track the leader feature using the virtual camera technique and sphere-based image moments. In order to overcome the absence of intervehicle communication, a leader observer is developed to estimate the state of the leader quadrotor. For the leader-follower IBVS dynamics involving unknown uncertainties and external disturbances, robust visual servoing and attitude control laws are proposed using off-policy RL algorithms without relying on precise dynamical models. The effectiveness of the proposed control scheme is validated through both theoretical analysis and case study results.",
+      "keywords": [
+        "Visual servoing",
+        "Control theory (sociology)",
+        "Reinforcement learning",
+        "Robust control",
+        "Observer (physics)",
+        "Robustness (evolution)",
+        "Feature (linguistics)",
+        "Control (management)",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3665724",
+      "doi": "10.1109/tnnls.2026.3665724",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "CoreKD: A Context-Aware Local Region Structural Contrastive Knowledge Distillation Framework for Object Detection",
+      "authors": [
+        "Junfei Yi",
+        "Jianxu Mao",
+        "Yaonan Wang",
+        "Tengfei Liu",
+        "Mingjie Li",
+        "Kai Zeng",
+        "Hui Zhang",
+        "Xiaojun Chang"
+      ],
+      "abstract": "Knowledge distillation (KD) aims to transfer knowledge from a cumbersome teacher to a lightweight student, thereby reducing overall model complexity without sacrificing performance. Current methods tend to focus excessively on pixel-level knowledge transfer while overlooking localized and contextual information. To address this, we propose a novel context-aware local region structural contrastive knowledge distillation framework (CoreKD) for object detection tasks. Specifically, we introduce a patch-based semantic structural distillation (PSD) method, facilitating efficient localized valuable knowledge transfer. This method guides the student model in learning both consistency and diverse local knowledge from the teacher model by integrating the semantic and structural information. We also propose the intra-region contextual (Ita-RC) and inter-region contextual (Ite-RC) constraints for the PSD framework. These constraints could transfer the region-wise contextual information between the student and teacher, significantly enhancing the student detector's capacity to model contextual dependencies. To validate the efficacy of CoreKD, we conduct extensive experiments on the public MS COCO 2017 and PASCAL VOC datasets. These results demonstrate that CoreKD markedly improves the performance of students in object detection tasks, indicating its ability to transfer valuable knowledge.",
+      "keywords": [
+        "Object detection",
+        "Object (grammar)",
+        "Pattern recognition (psychology)",
+        "Feature (linguistics)",
+        "Feature extraction",
+        "Key (lock)",
+        "Artificial intelligence",
+        "Computer science",
+        "Computer vision"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3672967",
+      "doi": "10.1109/tnnls.2026.3672967",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Differentially Private Accelerated Distributed Algorithm for Aggregative Optimization",
+      "authors": [
+        "Bing Liu",
+        "Dongxing Li",
+        "Li Chai"
+      ],
+      "abstract": "This article studies the distributed aggregative optimization (DAO) problem, wherein each agent's local objective function depends not only on its own decision variables but also on an aggregate term involving all agents' decisions. In such settings, frequent information exchange among agents raises serious privacy concerns, as sensitive information may be inferred from shared data. To address this issue, we propose a differentially private accelerated distributed gradient tracking algorithm that integrates techniques from distributed dynamic average consensus, the heavy-ball momentum method, and differential privacy (DP). Specifically, to preserve privacy, the exchanged information is perturbed with independent Laplace noise. Moreover, our algorithm uses a noise deduction mechanism to prevent the accumulation of errors caused by noise during the estimation of aggregate variables and local gradients, thereby ensuring the algorithm's accuracy. Under the assumption that the global objective function is strongly convex and has Lipschitz-continuous gradients, we rigorously prove that the proposed algorithm achieves linear convergence in the mean-square error sense. In addition, we derive explicit suboptimality bounds and formally establish that the algorithm satisfies $\\epsilon $ -DP. Finally, numerical simulations are provided to validate the effectiveness of the proposed method.",
+      "keywords": [
+        "Differential privacy",
+        "Convex function",
+        "Convergence (economics)",
+        "Distributed algorithm",
+        "Function (biology)",
+        "Noise (video)",
+        "Aggregate (composite)",
+        "Laplace transform",
+        "Computer science",
+        "Algorithm"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3674758",
+      "doi": "10.1109/tnnls.2026.3674758",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "TopoCL: Topological Contrastive Learning for Time Series",
+      "authors": [
+        "Namwoo Kim",
+        "Hyungryul Baik",
+        "Yoonjin Yoon"
+      ],
+      "abstract": "Universal time-series representation learning is challenging but valuable in real-world applications such as classification, anomaly detection, and forecasting. Recently, contrastive learning (CL) has been actively explored to tackle time-series representation. However, a key challenge is that the data augmentation process in CL can distort seasonal patterns or temporal dependencies, inevitably leading to a loss of semantic information. To address this challenge, we propose topological CL for time series (TopoCL). TopoCL mitigates such information loss by incorporating persistent homology, which captures the topological characteristics of data that remain invariant under transformations. In this article, we treat the temporal and topological properties of time-series data as distinct modalities. Specifically, we compute persistent homology to construct topological features of time-series data, representing them in persistence diagrams (PDs). We then design a neural network to encode these persistent diagrams. Our approach jointly optimizes CL within the time modality and time-topology correspondence, promoting a comprehensive understanding of both temporal semantics and topological properties of time series. We conduct extensive experiments on four downstream tasks-classification, anomaly detection, forecasting, and transfer learning. The results demonstrate that TopoCL achieves state-of-the-art performance.",
+      "keywords": [
+        "Series (stratigraphy)",
+        "Computer science",
+        "Topology (electrical circuits)",
+        "Mathematics",
+        "Geology",
+        "Combinatorics"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3675422",
+      "doi": "10.1109/tnnls.2026.3675422",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Rethinking the Utilization of Individual Rewards in Multiagent Reinforcement Learning With Sparse Team Rewards",
+      "authors": [
+        "Yang Zhang",
+        "Yunjian Xu",
+        "Chengwei Zhang",
+        "Chao Wang",
+        "Zhihe Yang",
+        "Bo Tang",
+        "Edward Chung"
+      ],
+      "abstract": "The sparsity of team rewards significantly hinders the learning of optimal team policies in cooperative multiagent reinforcement learning (MARL). While augmenting sparse team rewards with individual rewards is a common solution, existing methods face three critical challenges: 1) inconsistency between the learned policy and the optimal team policy due to reward function modification; 2) incompatibility with different individual reward settings; and 3) suboptimal balance between individual and team reward-oriented policy optimization. To address these challenges, we propose CLOT, a novel policy consistency constrained multiagent policy optimization approach that leverages individual rewards in a reward setting-agnostic manner. Specifically, we first present a constrained policy optimization problem formulated by a consistency constraint between the team returns of the learned policy and those of the optimal team policy. Then, we develop a Lagrangian dual-based iterative policy optimization procedure to solve the formulated problem, deriving exact optimization objectives for policy training. Throughout this process, a dynamic Lagrangian multiplier update mechanism is proposed to automatically balance individual and team reward-oriented policy optimization. Extensive experimental evaluations across the StarCraft II Multiagent Challenge (SMAC), multiagent particle environment (MPE), and Google research football (GRF) environments demonstrate that our approach effectively addresses all three identified challenges, significantly enhancing performance in cooperative multiagent scenarios with sparse team rewards.",
+      "keywords": [
+        "Reinforcement learning",
+        "Consistency (knowledge bases)",
+        "Constraint (computer-aided design)",
+        "Optimization problem",
+        "Function (biology)",
+        "Football team",
+        "Process (computing)",
+        "Computer science",
+        "Artificial intelligence",
+        "Mathematical optimization"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3658520",
+      "doi": "10.1109/tnnls.2026.3658520",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Learning From <i>M</i> -Tuple One-vs-All Confidence Comparison Data",
+      "authors": [
+        "Jiahe Qin",
+        "Junpeng Li",
+        "Changchun Hua",
+        "Yana Yang"
+      ],
+      "abstract": "Partial-label learning (PLL) studies classification with ambiguous supervision, where each instance is annotated by a candidate label set that contains the unknown true label. While PLL has been widely investigated, real-world annotation pipelines often provide richer structure than an unordered set: annotators or retrieval systems may implicitly rank candidates, yielding a preferred label that is more likely to be correct, and the mis-selection patterns can be class-dependent rather than uniform. Moreover, practical candidate sets may occasionally miss the true label due to human error or imperfect upstream models. Motivated by these observations, we propose a new weak-supervision paradigm, preferred-label PLL in a one-vs-all view (PLL-OVA), where each training instance is accompanied by a candidate set and a preferred label within the set. We model preferred-label generation through a flexible noisy-channel formulation that subsumes both symmetric and asymmetric mis-selection mechanisms, and we further incorporate the missing-true-label scenario to better reflect realistic annotation noise. Building on this formulation, we develop principled empirical risk minimization (ERM) procedures via risk rewriting, establish identifiability requirements under general channels, and derive practical learning objectives that remain statistically grounded. To improve optimization stability under negative-risk effects inherent to unbiased rewriting, we introduce risk-correction functions (e.g., rectified linear unit (ReLU)/absolute value correction function (ABS)-type corrections) that significantly enhance robustness and empirical performance. Extensive experiments on benchmark datasets demonstrate that PLL-OVA consistently improves upon standard PLL baselines, especially when candidate ambiguity is large or mis-selection is nonuniform, validating the effectiveness and practicality of the proposed framework.",
+      "keywords": [
+        "Ambiguity",
+        "Inference",
+        "Robustness (evolution)",
+        "Benchmark (surveying)",
+        "Annotation",
+        "Stability (learning theory)",
+        "Set (abstract data type)",
+        "Identifiability",
+        "Imperfect",
+        "Computer science"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3673280",
+      "doi": "10.1109/tnnls.2026.3673280",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Multistage PCA Whitening: A Robust Method to Dimensionality Reduction in Image Retrieval",
+      "authors": [
+        "Bo-Jian Zhang",
+        "Guang-Hai Liu",
+        "Zuoyong Li",
+        "Shu-Xiang Song"
+      ],
+      "abstract": "Generating compact and robust feature representations using principal component analysis (PCA) is crucial for image retrieval tasks. However, most existing methods require PCA parameters to be learned from auxiliary datasets, which inevitably increases computational cost and limits generalization. To address this issue, we propose a novel dimensionality reduction learning method, namely multistage PCA whitening (MSPW), for image retrieval. Three main highlights are: 1) we propose a feature self-learning (FSL) method to learn PCA whitening (PW) parameters. This method can reconstruct the features of the retrieval dataset via singular value decomposition (SVD) and noise perturbation, which eliminates dependence on auxiliary datasets and alleviates performance degradation in high-dimensional features; 2) unlike existing single-stage dimensionality reduction methods, we introduce an online query self-learning (QSL) method that dynamically learns PCA parameters by incorporating query features, significantly improving the retrieval performance of using short-vector features; and 3) we propose a feature fusion (FF) method via using dimensional weighting to balance the contributions of various heterogeneous features, thereby enhancing the robustness of features across different dimensions. Experimental results on six benchmark datasets demonstrated that our MSPW method significantly outperforms existing state-of-the-art methods used for dimensionality reduction. Notably, our MSPW method using 4-D features can achieve more than 10% relative improvement over the previous best methods in terms of mean average precision (mAP) on two large-scale datasets.",
+      "keywords": [
+        "Pattern recognition (psychology)",
+        "Dimensionality reduction",
+        "Image retrieval",
+        "Principal component analysis",
+        "Image (mathematics)",
+        "Curse of dimensionality",
+        "Artificial intelligence",
+        "Computer science",
+        "Computer vision"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3669538",
+      "doi": "10.1109/tnnls.2026.3669538",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Robust Reinforcement Learning via Leveraging Historically Optimal Policy With Regulation of Performance",
+      "authors": [
+        "Qinglong Chen",
+        "Fei Zhu"
+      ],
+      "abstract": "Most existing adversarial training methods in reinforcement learning (RL) offer limited robustness and remain vulnerable to novel attacks. To address this limitation, an approach that enhances policy robustness by leveraging the historically optimal policy to guide policy optimization and generating diverse adversarial perturbations, termed robust RL via leveraging historically optimal policy with regulation of performance (HORP), is proposed. Unlike other approaches that rely solely on trial-and-error interactions, HORP constructs a guidance value function by simultaneously considering value gaps and policy distribution divergence, thereby focusing on prioritized learning in promising action spaces. It also incorporates an adaptive performance-aware optimization mechanism to trigger timely corrections, preventing the agent from deviating from optimal performance. Furthermore, HORP dynamically modulates perturbation entropy through controlled uncertainty injection, thereby improving the agent's generalized defensive capabilities. Experiments demonstrate that HORP achieves superior performance in most cases regarding both natural performance and robustness against various state attacks.",
+      "keywords": [
+        "Reinforcement learning",
+        "Control (management)",
+        "Key (lock)",
+        "Stability (learning theory)",
+        "Matching (statistics)",
+        "Action (physics)",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3670947",
+      "doi": "10.1109/tnnls.2026.3670947",
+      "issue": "37(9)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Table of Contents",
+      "authors": [],
+      "abstract": "",
+      "keywords": [],
+      "published": "2026-09",
+      "url": "https://doi.org/10.1109/tnnls.2026.3723912",
+      "doi": "10.1109/tnnls.2026.3723912",
+      "issue": "37(9)",
+      "text_source": "title",
+      "source": "crossref"
+    }
+  ],
+  "source": "crossref",
+  "diagnostics": [
+    "OpenAlex 补全: 摘要 14 篇, 关键词 14 篇"
+  ],
+  "ok": true,
+  "degraded": false,
+  "captured_at": "2026-09-17T19:01:54+08:00",
+  "capture_note": "normalized from real online adapter response"
+}

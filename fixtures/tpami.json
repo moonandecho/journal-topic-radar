@@ -1,0 +1,455 @@
+{
+  "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "ref": "0162-8828",
+  "issue": "48(10)",
+  "published": "2026-10",
+  "papers": [
+    {
+      "title": "A Variational Mean-Field Control Framework for Graph Representation Learning",
+      "authors": [
+        "Tingting Dan",
+        "Zhixuan Zhou",
+        "Won Hwa Kim",
+        "Guorong Wu"
+      ],
+      "abstract": "Feature representation learning in graph neural networks (GNNs) is a dynamic process driven by progressive information exchange throughout the graph. Current GNNs typically apply pre-defined message-passing heuristics uniformly across all graph data, even when the assumed relational inductive bias conflicts with the intrinsic graph properties (e.g., heterophily). This limitation hinders a principled understanding of graph learning and motivates a shift from application-specific architectures toward a generalizable paradigm. In this work, we conceptualize GNN learning through the lens of mean-field control, where the desired learning outcome corresponds to a variational critical point, each node reaches a representation that is adaptively calibrated to both itself and the entire graph. Building on this formulation, we propose a mathematical framework based on mean-field control (MFC) to adaptively design GNNs for unseen graph data. Specifically, we jointly optimize two control patterns: diffusive mobility, governing information propagation across the graph, and reactive mobility, regulating feature transformation at individual nodes. Both controls are learned from each input instance by solving an MFC variational problem through Hamiltonian flows characterized by partial differential equations (PDEs). Our variational framework unifies existing PDE-based GNNs as special mean-field control problems with fixed control patterns, and yields an end-to-end deep model, termed Nash-GNN. Extensive experiments show that Nash-GNN achieves state-of-the-art performance across diverse benchmarks, including heterophilic graphs and human connectomes. Beyond empirical gains, the MFC framework offers a principled lens to examine the mechanisms of graph representation learning through collective dynamics, opening promising directions for next-generation GNN design.",
+      "keywords": [
+        "Graph",
+        "Representation (politics)",
+        "Graph theory",
+        "Feature learning",
+        "Control (management)",
+        "Pattern recognition (psychology)",
+        "Computer science",
+        "Artificial intelligence",
+        "Theoretical computer science"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3696154",
+      "doi": "10.1109/tpami.2026.3696154",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Feature-Space Planes Searcher: A Universal Domain Adaptation Framework for Interpretability and Computational Efficiency",
+      "authors": [
+        "Zhitong Cheng",
+        "Yiran Jiang",
+        "Yulong Ge",
+        "Yufeng Li",
+        "Zhongheng Qin",
+        "Rongzhi Lin",
+        "Jianwei Ma"
+      ],
+      "abstract": "Domain shift, characterized by degraded model performance during the transfer from labeled source domains to unlabeled target domains, poses a persistent challenge for deploying deep learning systems. Current unsupervised domain adaptation (UDA) methods predominantly rely on fine-tuning feature extractors-an approach limited by high computational cost, reduced interpretability, and poor scalability to modern architectures. Our analysis reveals that models pre-trained on large-scale data exhibit domain-invariant geometric patterns in their feature space, characterized by intra-class clustering and inter-class separation, thereby preserving transferable discriminative structures. These findings suggest that cross-domain performance degradation is often associated with decision-boundary misalignment, and that correcting such misalignment can serve as an effective alternative to feature adaptation, particularly when pretrained representations are sufficiently strong. Unlike fine-tuning entire pre-trained models, which risks introducing unpredictable feature distortions, we propose the Feature-space Planes Searcher (FPS): a novel domain adaptation framework that optimizes decision boundaries by leveraging these geometric patterns while keeping the feature encoder frozen. This streamlined approach enables interpretable analysis of adaptation while substantially reducing memory and computational costs through offline feature extraction, permitting full-dataset optimization in a single training cycle. Moreover, we introduce an Intra-Class Distance Metric (ICDM) that enables fully unsupervised hyperparameter selection without requiring target-domain labels. Evaluations on public benchmarks show that FPS achieves competitive performance across standard benchmarks, with notable gains in several settings and tasks. FPS scales efficiently with large multimodal models and shows versatility across diverse domains including protein structure prediction, remote sensing classification, and earthquake detection. We anticipate FPS will provide a simple, effective, and generalizable framework for domain adaptation tasks.",
+      "keywords": [
+        "Interpretability",
+        "Domain (mathematical analysis)",
+        "Domain adaptation",
+        "Computational complexity theory",
+        "Pattern recognition (psychology)",
+        "Computer science",
+        "Artificial intelligence",
+        "Algorithm"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3703974",
+      "doi": "10.1109/tpami.2026.3703974",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Multi-Domain Feature Integration Based Trusted Partial Multi-View Incomplete Multi-Label Learning",
+      "authors": [
+        "Jie Wen",
+        "Jiaying Zhou",
+        "Xiaohuan Lu",
+        "Youliang Tian",
+        "Zheng Zhang",
+        "Li Shen",
+        "Yong Xu"
+      ],
+      "abstract": "Partial Multi-view Incomplete Multi-label Learning (PMvIMlL) focuses on the challenging multi-view multi-label learning tasks characterized by partially missing views and labels in real-world data. Although many methods have been proposed in recent years, most methods suffer from three distinct yet critical limitations. First, they lack effective mechanisms to quantify predictive uncertainty under dual missing settings, often yielding overconfident and unreliable predictions. Second, existing representations rely exclusively on spatial-domain features, overlooking the rich complementary information available in the frequency domain, which substantially limits their discriminative power. Third, prevailing fusion approaches fail to account for cross-view opinion divergence, frequently resulting in suboptimal fusion quality when handling discordant perspectives. To address these issues, we propose MFIT, a Multi-domain Feature Integration based Trusted Partial Multi-view Incomplete Multi-label Learning framework. Our method comprises two core components: a Feature Enhancement module via Frequency-Domain Integration (FE-FDI) and an Evidential Fusion module with Cross-view Decision Consistency (EF-CDC). FE-FDI enriches representations by incorporating global frequency patterns while preserving spatial characteristics. EF-CDC addresses the sensitivity issue of multi-view decision conflicts in the fusion process by enhancing cross-view decision consistency. Comprehensive evaluations on six datasets demonstrate that MFIT achieves substantial and consistent performance improvements, validating its effectiveness in enhancing both prediction accuracy and decision reliability.",
+      "keywords": [
+        "Feature (linguistics)",
+        "Pattern recognition (psychology)",
+        "Feature extraction",
+        "Complete information",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3692653",
+      "doi": "10.1109/tpami.2026.3692653",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Raising the Bar in Graph OOD Generalization: Invariant Learning Beyond Explicit Environment Modeling",
+      "authors": [
+        "Xu Shen",
+        "Yixin Liu",
+        "Yili Wang",
+        "Rui Miao",
+        "Yiwei Dai",
+        "Shirui Pan",
+        "Yi Chang",
+        "Xin Wang"
+      ],
+      "abstract": "Out-of-distribution (OOD) generalization has emerged as a critical challenge in graph learning, as real-world graph data often exhibit diverse and shifting environments that traditional models fail to generalize across. A promising solution to address this issue is graph invariant learning (GIL), which aims to learn invariant representations by disentangling label-correlated invariant subgraphs from environment-specific subgraphs. However, existing GIL methods face two major challenges: (1) the difficulty of capturing and modeling diverse environments in graph data, and (2) the semantic cliff, where invariant subgraphs from different classes are difficult to distinguish, leading to poor class separability and increased misclassifications. To tackle these challenges, we propose a novel method termed Multi-Prototype Hyperspherical Invariant Learning (MPhil), which introduces two key innovations: (1) hyperspherical invariant representation extraction, enabling robust and highly discriminative hyperspherical invariant feature extraction, and (2) multi-prototype hyperspherical classification, which employs class prototypes as intermediate variables to eliminate the need for explicit environment modeling in GIL and mitigate the semantic cliff issue. Derived from the theoretical framework of GIL, we introduce two novel objective functions: the invariant prototype matching loss to ensure samples are matched to the correct class prototypes, and the prototype separation loss to increase the distinction between prototypes of different classes in the hyperspherical space. Extensive experiments on 13 OOD generalization benchmark datasets demonstrate that MPhil achieves state-of-the-art performance, significantly outperforming existing methods across graph data from various domains and with different distribution shifts.",
+      "keywords": [
+        "Raising (metalworking)",
+        "Invariant (physics)",
+        "Generalization",
+        "Bar chart",
+        "Bar (unit)",
+        "Graph",
+        "Computer science",
+        "Mathematics",
+        "Theoretical computer science",
+        "Physics"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3707682",
+      "doi": "10.1109/tpami.2026.3707682",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Industrial Brain: Self-Evolving Neuro-Symbolic Autonomy With Causal Resilience for Cyber-Physical Systems",
+      "authors": [
+        "Junping Wang",
+        "Bicheng Wang",
+        "Guoqing Wang",
+        "Yushan Ma"
+      ],
+      "abstract": "Neuro-Symbolic reasoning, commonly abbreviated as \"NeSy,\" represents a critical and challenging area in artificial intelligence, characterized by its integration of data-driven neural learning and interpretable symbolic reasoning. Unfortunately, most NeSy research to date has mainly concentrated on developing interpretable AI systems for tasks like visual scene parsing or question answering, and has not adequately addressed the need for causal reasoning, cognitive autonomy, and adaptive self-evolution in open-world environments. This bring great challenges and makes previous methods fail to disentangle these causal cognitive complexities. This paper propose Self-Evolving Neuro-Symbolic Autonomy (SENSA) with causal resilience, integrating neural-symbolic bidirectional self-alignment, causal-driven self-evolution, and hierarchical resilience planning to achieve autonomous cognitive decision-making. With this regard, a neural-symbolic bidirectional self-alignment is developed, which enables real-time mutual adaptation, ensuring robustness against adversarial noise and causal coherence in dynamic open-real environments. Specifically, we design a novel causal-driven self-evolution that enables AI systems to autonomously refine their decision-making policies by leveraging causal reasoning and counterfactual analysis. On this basis, we further develope the hierarchical resilience planning to adapt, recover, and maintain performance even under disruptive or adversarial conditions. The SENSA bridges the gap between neural adaptability and symbolic rigor, which is called industrial brain, achieving causal reasoning and self-evolving autonomy in Cyber-Physical Systems. Theoretically, we prove that the causal reasoning, cognitive autonomy, and adaptive self-evolution by our SENSA can approximate the ground-truth. Empirically, extensive evaluations on eight benchmark datasets demonstrate our superiority over state-of-the-art baselines.",
+      "keywords": [
+        "Autonomy",
+        "Resilience (materials science)",
+        "Perspective (graphical)",
+        "Causality (physics)",
+        "Causal model",
+        "Computer science",
+        "Psychology",
+        "Artificial intelligence",
+        "Knowledge management"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3708591",
+      "doi": "10.1109/tpami.2026.3708591",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Privacy-Preserving Online Federated Learning for Massive Infinite Streams",
+      "authors": [
+        "Liang Shi",
+        "Xuebin Ren",
+        "Shusen Yang",
+        "Cong Zhao",
+        "Yijun Hao",
+        "Zongben Xu"
+      ],
+      "abstract": "Online federated learning (OFL) is essential for privacy-preserving collaborative online analytics over decentralized streams. Different from batch-based FL, OFL faces new challenges including longitudinal privacy leakage, and accumulated utility loss and communication costs, caused by the infinite data streams. This paper first extends the definition of traditional differential privacy (DP) to OFL, to provide window-based privacy protection with a tunable granularity for infinite streams. By analyzing baseline methods, a generic sampling-based solution framework is then proposed for designing a DP-enhanced OFL algorithm. We prove that despite the DP constraint, the sampling solution framework can achieve an asymptotic optimality when time tends to infinity. Finally, we present Sampling$^{3}$3-OFL, an adaptive triple-sampling strategy driven by deep reinforcement learning, which can dynamically determine a near-optimal sampling strategy with significant gains in both utility and efficiency. Extensive experiments on six real-world datasets demonstrate that Sampling$^{3}$3-OFL can scale to millions of streams, and achieves utility improvements of 0.74%-15.84% and communication cost reductions of 33.33%-95.24% across these datasets compared to state-of-the-art methods.",
+      "keywords": [
+        "Data stream mining",
+        "Server",
+        "Distributed database",
+        "Data modeling",
+        "STREAMS",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3697332",
+      "doi": "10.1109/tpami.2026.3697332",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "MPQ-DMv2: Flexible Residual Mixed Precision Quantization for Low-Bit Diffusion Models With Temporal Distillation",
+      "authors": [
+        "Weilun Feng",
+        "Chuanguang Yang",
+        "Haotong Qin",
+        "Yuqi Li",
+        "Xiangqi Li",
+        "Zhulin An",
+        "Libo Huang",
+        "Boyu Diao",
+        "Fuzhen Zhuang",
+        "Michele Magno",
+        "Yongjun Xu",
+        "Yingli Tian",
+        "Tingwen Huang"
+      ],
+      "abstract": "Diffusion models have demonstrated remarkable performance on vision generation tasks. However, the high computational complexity hinders its wide application on edge devices. Quantization has emerged as a promising technique for inference acceleration and memory reduction. However, existing quantization methods do not generalize well under extremely low-bit (2-4 b) quantization. Directly applying these methods will cause severe performance degradation. We identify that the existing quantization framework suffers from the outlier-unfriendly quantizer design, suboptimal initialization, and optimization strategy. We present MPQ-DMv2, an improved Mixed Precision Quantization framework for extremely low-bit Diffusion Models. For the quantization perspective, the imbalanced distribution caused by salient outliers is quantization-unfriendly for uniform quantizer. We propose Flexible Z-Order Residual Mixed Quantization that utilizes an efficient binary residual branch for flexible quant steps to handle salient error. For the optimization framework, we theoretically analyzed the convergence and optimality of the LoRA module and propose Object-Oriented Low-Rank Initialization to use prior quantization error for informative initialization. We then propose Memory-based Temporal Relation Distillation to construct an online time-aware pixel queue for long-term denoising temporal information distillation, which ensures the overall temporal consistency between quantized and full-precision model. Comprehensive experiments on various generation tasks show that our MPQ-DMv2 surpasses current SOTA methods by a great margin on different architectures, especially under extremely low-bit widths.",
+      "keywords": [
+        "Quantization (signal processing)",
+        "Residual",
+        "Outlier",
+        "Estimator",
+        "Binary number",
+        "Optimization problem",
+        "Sliced inverse regression",
+        "Computer science",
+        "Algorithm",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3700583",
+      "doi": "10.1109/tpami.2026.3700583",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Dataset Pruning: Reducing Training Data by Examining SGD-Influence",
+      "authors": [
+        "Shuo Yang",
+        "Yucheng Huang",
+        "Zeke Xie",
+        "Ping Li",
+        "Min Xu",
+        "Liqiang Nie"
+      ],
+      "abstract": "The great success of deep learning relies heavily on ever-increasing amounts of training data, which incurs enormous computational and infrastructural costs. This raises crucial questions: Does all training data contribute equally to a model's performance? How much does each individual training sample or sub-training set affect the model's generalization, and how can we construct the smallest proxy training set without significantly sacrificing performance? To address these questions, we propose dataset pruning, an optimization-based sample selection method that (1) examines the influence of removing particular training samples on the model's generalization ability with high computational efficiency and theoretical guarantees, and (2) constructs the smallest subset of training data that yields a strictly constrained generalization gap. The empirically observed generalization gap achieved by dataset pruning is largely consistent with our theoretical expectations. To estimate each sample's influence, we develop an SGD-Influence method that tracks parameter changes during stochastic gradient descent, effectively overcoming the convexity and optimality assumptions required by traditional influence function approaches. Complementing this, our distributed discrete optimization partitions the dataset into manageable buckets, allowing for efficient sample selection without sacrificing quality. Extensive experiments on three datasets of varying scale and complexity demonstrate that our approach not only aligns well with theoretical expectations but also outperforms state-of-the-art methods. Notably, compared to our previous work, the proposed method achieves a 61.26% reduction in computational cost while delivering higher accuracy.",
+      "keywords": [
+        "Training (meteorology)",
+        "Training set",
+        "Data modeling",
+        "Feature (linguistics)",
+        "Pattern recognition (psychology)",
+        "Computer science",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3703395",
+      "doi": "10.1109/tpami.2026.3703395",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Elastic Multi-Gradient Descent for Parallel Continual Learning",
+      "authors": [
+        "Fan Lyu",
+        "Wei Feng",
+        "Yuepan Li",
+        "Qing Sun",
+        "Fanhua Shang",
+        "Liang Wan",
+        "Liang Wang"
+      ],
+      "abstract": "Learning a single shared model across multiple tasks is a long-standing goal in machine learning, traditionally addressed through Multi-Task Learning (MTL) or Serial Continual Learning (SCL). However, MTL assumes fixed task availability, limiting adaptability to new tasks, while SCL suffers from delayed response due to its strictly sequential learning protocol. This paper studies the novel paradigm of Parallel Continual Learning (PCL) in dynamic multi-task scenarios, where a diverse set of tasks is encountered at different time points. PCL inherits the challenges of both MTL and SCL, namely, task conflict and catastrophic forgetting, compounded by the dynamic and asynchronous arrival of tasks. To address these challenges, we propose Elastic Multi-Gradient Descent (EMGD), which formulates PCL as a dynamic multi-objective optimization problem. EMGD introduces task-specific elastic factors to guide gradient updates toward Pareto-optimal directions, ensuring balanced learning across tasks. Additionally, we develop a gradient-guided memory editing mechanism that aligns rehearsal data with the optimized descent direction, mitigating memory-induced interference. Theoretical analysis shows that accumulation points of the EMGD update rule are Pareto critical under the proposed formulation, and extensive experiments on image classification benchmarks demonstrate that EMGD significantly outperforms existing methods, including state-of-the-art PCL, MTL, and SCL approaches.",
+      "keywords": [
+        "Computer science",
+        "Task (project management)",
+        "Gradient descent",
+        "Set (abstract data type)",
+        "Process (computing)",
+        "Sequence (biology)",
+        "Artificial intelligence",
+        "Pareto principle",
+        "Optimization problem",
+        "Stochastic gradient descent"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3690085",
+      "doi": "10.1109/tpami.2026.3690085",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "QuantSR+: Pushing the Limit of Quantized Image Super-Resolution Networks",
+      "authors": [
+        "Haotong Qin",
+        "Xudong Ma",
+        "Xianglong Liu",
+        "Jie Luo",
+        "Jinyang Guo",
+        "Michele Magno",
+        "Yulun Zhang"
+      ],
+      "abstract": "Low-bit quantization is widely used to compress super-resolution (SR) models and reduce storage and computation costs for deployment on resource-limited devices. However, when SR models are pushed to ultra-low precision (2-4 bits), performance can drop sharply due to diminished representational capacity and the detail-sensitive nature of SR. To address these issues, we propose QuantSR+, a unified framework that improves quantization operators, network design, and training optimization, achieving better trade-offs between accuracy and efficiency than prior low-bit SR methods. QuantSR+ mainly relies on three technical contributions: 1) Redistribution-driven Bit Determination (RBD), which reshapes quantization distributions in both forward and backward passes to preserve representation fidelity; 2) Quantized Slimmable Architecture (QSA), which begins with an over-parameterized model and progressively prunes less critical blocks to meet efficiency budgets while pushing the accuracy performance; and 3) Slimming-guided Function-localized Distillation (SFD), which enforces block-aware feature alignment via a direct loss and a progressive, function-local training schedule to capture quantization effects better and speed up convergence. Extensive experiments show that QuantSR+ achieves state-of-the-art performance against both specialized quantized SR methods and generic quantization approaches. For SwinIR-S on Urban100 (×4), it improves PSNR by 0.29 dB over the 2-bit SOTA baseline. Meanwhile, it delivers strong efficiency gains at 2-bit, reducing operations by up to 87.9% and storage by 89.4%. QuantSR+ is effective for both convolutional and transformer-based SR models, indicating broad applicability. Code and pretrained models are available here.",
+      "keywords": [
+        "Limit (mathematics)",
+        "Image (mathematics)",
+        "Image processing",
+        "Object detection",
+        "Quantization (signal processing)",
+        "Image segmentation",
+        "Signal processing",
+        "Edge detection",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3697683",
+      "doi": "10.1109/tpami.2026.3697683",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Crafting Your Evolving Dreams: Concept-Incremental Versatile Customization",
+      "authors": [
+        "Jiahua Dong",
+        "Wenqi Liang",
+        "Hongliu Li",
+        "Yang Cong",
+        "Duzhen Zhang",
+        "Hanbin Zhao",
+        "Henghui Ding",
+        "Yulun Zhang",
+        "Salman Khan",
+        "Fahad Shahbaz Khan"
+      ],
+      "abstract": "Custom diffusion models (CDMs) have garnered significant interest owing to their remarkable capacity for generating personalized concepts. However, the majority of CDMs unrealistically presume that the user's collection of personalized concepts is static and incapable of incremental growth over time. Furthermore, they exhibit significant catastrophic forgetting and concept neglect of previously learned concepts when incrementally learning a sequence of new ones. To resolve the above challenges, we develop a novel Continually Customizable Diffusion Model (CCDM), enabling users to perform concept-incremental versatile customization. Specifically, we design an attribute-decoupled LoRA (AD-LoRA) module and a relevance-guided AD-LoRA aggregation strategy to mitigate catastrophic forgetting. They can preserve concept-specific attributes of each task and leverage beneficial inter-task correlations to enhance the continual learning of new customization tasks. Additionally, to address the challenge of concept neglect, we propose a controllable regional context synthesis strategy that performs multi-concept composition in alignment with user-provided conditions. This strategy enhances the overall consistency in multi-concept synthesis by guaranteeing semantic independence between user-defined regions and their smooth boundary transitions. Experiments show our CCDM exhibits significant improvements over baseline methods.",
+      "keywords": [
+        "Personalization",
+        "Key (lock)",
+        "Feature extraction",
+        "Computer science",
+        "Artificial intelligence"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3700787",
+      "doi": "10.1109/tpami.2026.3700787",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "From Zero to Detail: A Progressive Spectral Decoupling Paradigm for UHD Image Restoration With New Benchmark",
+      "authors": [
+        "Chen Zhao",
+        "Yunzhe Xu",
+        "Zhizhou Chen",
+        "Enxuan Gu",
+        "Kai Zhang",
+        "Xiaoming Liu",
+        "Jian Yang",
+        "Ying Tai"
+      ],
+      "abstract": "Ultra-high-definition (UHD) image restoration poses unique challenges due to the high spatial resolution, diverse content, and fine-grained structures present in UHD images. To address these issues, we introduce a progressive spectral decomposition for the restoration process, decomposing it into three stages: zero-frequency enhancement, low-frequency restoration, and high-frequency refinement. Based on this formulation, we propose a novel framework, ERR, which integrates three cooperative sub-networks: the zero-frequency enhancer (ZFE), the low-frequency restorer (LFR), and the high-frequency refiner (HFR). The ZFE incorporates global priors to learn holistic mappings, the LFR reconstructs the main content by focusing on coarse-scale information, and the HFR adopts our proposed frequency-windowed Kolmogorov-Arnold Network (FW-KAN) to recover fine textures and intricate details for high-fidelity restoration. To further advance research in UHD image restoration, we also construct a large-scale, high-quality benchmark dataset, LSUHDIR, comprising 82,126 UHD images with diverse scenes and rich content. Our proposed methods demonstrate superior performance across a range of UHD image restoration tasks, and extensive ablation studies confirm the contribution and necessity of each module.",
+      "keywords": [
+        "Image restoration",
+        "Benchmark (surveying)",
+        "Decoupling (probability)",
+        "Iterative reconstruction",
+        "Image processing",
+        "Image (mathematics)",
+        "Zero (linguistics)",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3691530",
+      "doi": "10.1109/tpami.2026.3691530",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "Person-in-WiFi 3D: Unified Model for 3D WiFi Perception",
+      "authors": [
+        "Bo Qian",
+        "Xing Wei",
+        "Kangwei Yan",
+        "Han Ding",
+        "Jinsong Han",
+        "Fei Wang"
+      ],
+      "abstract": "WiFi sensing offers a privacy-preserving and occlusion-robust alternative to camera-based human perception, making it attractive for applications such as smart homes, elderly care, and virtual reality. Although recent studies have achieved remarkable progress in WiFi-based single-person 2D/3D pose estimation, multi-person 2D pose estimation, and single-person mesh reconstruction, multi-person 3D human perception remains largely unexplored. In this paper, we present Person-in-WiFi 3D, the first WiFi sensing system capable of end-to-end multi-person 3D pose estimation and mesh reconstruction. Person-in-WiFi 3D advances prior work in two aspects. First, it employs multiple WiFi transmitters and receivers to capture richer 3D spatial reflections from multiple individuals, enabling robust perception in complex multi-person scenarios. Second, it introduces a DETR-inspired architecture with Hungarian matching and a coarse-to-fine hierarchical refinement strategy that progressively exploits global, instance-level, and keypoint-level features for accurate human localization and reconstruction. These designs enable efficient, scalable, and high-fidelity 3D human perception.To support research in this area, we construct Wiception3D, the first large-scale dataset for WiFi-based multi-person 3D human perception. The dataset contains over 97,000 frames collected from seven participants across diverse multi-person activities in a 4 m × 3.5 m environment, with annotations for both 3D pose estimation and 3D mesh reconstruction. Experimental results show that Person-in-WiFi 3D achieves a mean 3D keypoint localization error of 93 mm and a mesh reconstruction error of 41 mm, delivering performance comparable to camera- and millimeter-wave radar-based systems while retaining the inherent advantages of WiFi sensing.",
+      "keywords": [
+        "Unified Model",
+        "Perception",
+        "Data modeling",
+        "Context model",
+        "Solid modeling",
+        "Computer science",
+        "Artificial intelligence",
+        "Computer vision"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3701032",
+      "doi": "10.1109/tpami.2026.3701032",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "A Non-Local Convergence Analysis of Gradient Flow for Deep Linear Networks",
+      "authors": [
+        "Kun Chen",
+        "Dachao Lin",
+        "Zhihua Zhang"
+      ],
+      "abstract": "In this paper we study the non-local convergence properties of deep linear networks with a one-neuron layer. Specifically, under the quadratic loss, we consider optimizing deep linear networks in which there is at least one layer with only one neuron. We describe the convergent point of trajectories with an arbitrary balanced starting point under gradient flow, including the paths which converge to one of the saddle points. We also show specific convergence rates of these trajectories by stages with the explicit rates varying from sublinear to linear. As far as we know, our results are the first to give an explicit non-local analysis of such deep linear neural networks with arbitrary balanced initialization under the quadratic loss, rather than the lazy training regime which has dominated the literature of neural networks.",
+      "keywords": [
+        "Convergence (economics)",
+        "Gradient method",
+        "Flow (mathematics)",
+        "Artificial neural network",
+        "Balanced flow",
+        "Gradient descent",
+        "Linear system",
+        "Signal processing",
+        "Computer science",
+        "Applied mathematics"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3704447",
+      "doi": "10.1109/tpami.2026.3704447",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    },
+    {
+      "title": "A Holistic Method for Superquadric Fitting Using Unsupervised Clustering Analysis",
+      "authors": [
+        "Mingyang Zhao",
+        "Sipu Ruan",
+        "Xiaohong Jia"
+      ],
+      "abstract": "This work presents a novel method for fitting superquadrics to point clouds under the contamination of noise and outliers, which has many applications for shape modeling across diverse fields. Unlike prior approaches that either exclusively focus on fitting rigid or deformable superquadrics, or suffer from robustness and numerical instability issues, our method redefines the problem from a new unsupervised clustering perspective, enabling the holistic fitting of both rigid and deformable superquadrics within a unified framework. Central to our approach is a stable optimization function inspired by unsupervised clustering analysis, where we formulate the point cloud data and samples from the potential parametric surface as clustering members and centroids, respectively. Then, the clustering process with dynamic updates to centroid locations serves as a direct proxy for optimizing superquadric parameters, establishing a principled link between geometric fitting and clustering dynamics. We further derive the relationship between pairwise computations of clustering centroids and clustering members to orthogonal distances, effectively eliminating the need for the time-consuming surface sampling process. Moreover, our formulation provides closed-form analytical solutions for both the fuzzy membership degree vector and the covariance matrix, ensuring efficient iteration optimization and enabling more effective handling of geometric deformations. In addition, we provide a theoretical certificate of convergence analysis and demonstrate that the clustering-inspired fitting method can escape local minima by inherently increasing the convexity of the objective function. We experimentally demonstrate the improvements of our superquadric fitting method in accuracy, robustness, and stability over state-of-the-art approaches. We also show that our method effectively avoids convergence to local minima, yielding smaller point-to-surface distances, particularly for the highly tapered shapes. Additionally, we illustrate the versatility of our method in diverse applications, including complex object approximation via multiple superquadric representation, type-specific primitive fitting, geometry editing, and medical modeling.",
+      "keywords": [
+        "Cluster analysis",
+        "Point cloud",
+        "Fuzzy clustering",
+        "Centroid",
+        "Data point",
+        "Robustness (evolution)",
+        "Pattern recognition (psychology)",
+        "Correlation clustering",
+        "Unsupervised learning",
+        "Computer science"
+      ],
+      "published": "2026-10",
+      "url": "https://doi.org/10.1109/tpami.2026.3692682",
+      "doi": "10.1109/tpami.2026.3692682",
+      "issue": "48(10)",
+      "text_source": "title+keywords+abstract",
+      "source": "crossref"
+    }
+  ],
+  "source": "crossref",
+  "diagnostics": [
+    "OpenAlex 补全: 摘要 15 篇, 关键词 15 篇"
+  ],
+  "ok": true,
+  "degraded": false,
+  "captured_at": "2026-09-17T19:01:37+08:00",
+  "capture_note": "normalized from real online adapter response"
+}

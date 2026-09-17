@@ -1,0 +1,39 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache .tmp/jieba.cache
+Loading model cost 0.794 seconds.
+Prefix dict has been built successfully.
+POSITIVE SAMPLES
+  score=0.9024  topic=大语言模型的源代码漏洞检测  <-  基于大语言模型的源代码漏洞检测方法
+  score=0.2048  topic=工业缺陷检测  <-  视觉工业缺陷检测
+  score=0.2720  topic=多模态知识图谱补全  <-  多视图增强图注意力网络的多模态知识图谱补全
+  score=0.2897  topic=无监督句子表示  <-  多级正例约束的无监督句子表示
+  score=0.2549  topic=脑机接口连续运动控制  <-  非侵入式连续运动控制脑-机接口技术综述
+  score=0.2827  topic=大模型参数高效微调  <-  大模型参数高效微调方法综述
+  score=0.2119  topic=处理器芯片安全  <-  处理器芯片安全综述
+  score=0.2754  topic=持续学习方法  <-  面向大模型时代的持续学习方法论演变
+  score=0.2655  topic=知识蒸馏低频词翻译  <-  基于知识蒸馏的低频词翻译优化策略
+
+EXCLUDED (loose/cross-lingual, not used for strong boundary)
+  score=0.0911  topic=联邦学习通信压缩  <-  一种基于单比特通信压缩的大语言模型训练方法
+  score=0.0666  topic=异常检测  <-  视觉工业缺陷检测
+
+NEGATIVE SAMPLES
+  score=0.0000  topic=量子计算硬件设计  <-  基于大语言模型的源代码漏洞检测方法
+  score=0.0127  topic=蛋白质结构预测  <-  多级正例约束的无监督句子表示
+  score=0.0035  topic=音乐生成  <-  处理器芯片安全综述
+  score=0.0089  topic=气候变化建模  <-  大模型参数高效微调方法综述
+  score=0.0045  topic=医学图像分割  <-  无监督句子表示
+  score=0.0061  topic=供应链风险预测  <-  非侵入式连续运动控制
+  score=0.0121  topic=金融时间序列预测  <-  多视图增强图注意力网络的多模态知识图谱补全
+  score=0.0065  topic=法律文书生成  <-  面向红外手势识别的存内计算神经网络推理系统设计
+  score=0.0105  topic=数据库事务调度  <-  视觉工业缺陷检测
+  score=0.0048  topic=机器人路径规划  <-  处理器芯片安全综述
+
+SUMMARY
+  negative max = 0.0127
+  positive min = 0.2048
+  margin = 0.10 above best negative / weakest positive
+  proposed lexical weak   = 0.11
+  proposed lexical strong = 0.30
+
+Copy these values into config/thresholds.yaml after review.

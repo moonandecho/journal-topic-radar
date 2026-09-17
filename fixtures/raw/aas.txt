@@ -1,0 +1,33 @@
+URL: https://www.aas.net.cn/cn/article/current
+HTTP/bytes: 200/198958
+Captured: 2026-09-17T19:04:01+08:00
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>自动化学报</title>
+		<meta name="google-site-verification" content="5nN-A1SMFv1YzH-sm44HZG5v3lD6uENBYeLEfDZYH9o" /><!-- RhhzPro -->
+<!-- RhhzPro Link_css -->
+<base href="/">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link type="text/css" href="style/web/images/custom/favicon.ico" rel="shortcut icon" />
+<link type="text/css" href="style/web/css/public/bootstrap/bootstrap.min.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/public/font-awesome/font-awesome.min.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/public/swiper/swiper.min.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/public/owl-carousel/owl.carousel.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/public/iconfont/iconfont.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/public/base/base.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/custom/media/media.css?t=1789457361740" rel="stylesheet" />
+<link type="text/css" href="style/web/css/custom/style/style.css?t=1789457361740" rel="stylesheet" />
+<!-- RhhzPro Link_js -->
+<script type="text/javascript" src="style/web/js/public/jquery-public.min.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/bootstrap.min.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/jquery.validate.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/swiperd.min.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/jquery.nicescroll.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/owl.carousel.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/jquery.colorbox.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/user_validate.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/rhhz.js?t=1789457361740"></script>
+<script type="text/javascript" src="style/web/js/public/base.js?t=1789457361740"></sc

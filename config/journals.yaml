@@ -1,0 +1,128 @@
+# 运行时期刊名单：10 本（国内 5 + 国外 5）。
+# 禁止把期刊名写死在代码里；现场拿到新期刊名后在此文件追加即可。
+journals:
+  # ---------------- 国内 5 本：官网 adapter 为主路径 ----------------
+  - name: "软件学报"
+    aliases: ["软件学报", "Journal of Software", "JOS"]
+    country: 国内
+    issn: "1000-9825"
+    official_site: "https://www.jos.org.cn"
+    site_url: "https://www.jos.org.cn"
+    slug: "jos"
+    parser: "jos"
+    source_priority: ["journal_site"]
+    min_papers: 5
+    max_papers: 12
+    enrich_limit: 6
+
+  - name: "自动化学报"
+    aliases: ["自动化学报", "Acta Automatica Sinica", "AAS"]
+    country: 国内
+    issn: "0254-4156"
+    official_site: "https://www.aas.net.cn"
+    site_url: "https://www.aas.net.cn"
+    current_url: "https://www.aas.net.cn/cn/article/current"
+    slug: "aas"
+    parser: "magtech"
+    source_priority: ["journal_site"]
+    min_papers: 5
+    max_papers: 12
+    enrich_limit: 6
+
+  - name: "计算机研究与发展"
+    aliases: ["计算机研究与发展", "Journal of Computer Research and Development", "JCRD"]
+    country: 国内
+    issn: "1000-1239"
+    official_site: "https://crad.ict.ac.cn"
+    site_url: "https://crad.ict.ac.cn"
+    current_url: "https://crad.ict.ac.cn/cn/article/current"
+    slug: "crad"
+    parser: "magtech"
+    source_priority: ["journal_site"]
+    min_papers: 5
+    max_papers: 12
+    enrich_limit: 6
+
+  - name: "中文信息学报"
+    aliases: ["中文信息学报", "Journal of Chinese Information Processing", "JCIP"]
+    country: 国内
+    issn: "1003-0077"
+    official_site: "http://jcip.cipsc.org.cn"
+    site_url: "http://jcip.cipsc.org.cn"
+    current_url: "http://jcip.cipsc.org.cn/cn/article/current"
+    slug: "jcip"
+    parser: "magtech"
+    source_priority: ["journal_site"]
+    min_papers: 5
+    max_papers: 12
+    enrich_limit: 6
+
+  - name: "电子与信息学报"
+    aliases: ["电子与信息学报", "Journal of Electronics & Information Technology", "JEIT"]
+    country: 国内
+    issn: "1009-5896"
+    official_site: "https://jeit.ac.cn"
+    site_url: "https://jeit.ac.cn"
+    current_url: "https://jeit.ac.cn/article/current"
+    slug: "jeit"
+    parser: "magtech"
+    source_priority: ["journal_site"]
+    min_papers: 5
+    max_papers: 12
+    enrich_limit: 6
+
+  # ---------------- 国外 5 本：Crossref 首选，OpenAlex 备选/补摘要 ----------------
+  - name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    aliases: ["IEEE TPAMI", "TPAMI", "IEEE Transactions on Pattern Analysis and Machine Intelligence"]
+    country: 国外
+    issn: "0162-8828"
+    official_site: "https://www.computer.org/csdl/journal/tp"
+    slug: "tpami"
+    source_priority: ["crossref", "openalex"]
+    min_papers: 5
+    max_papers: 15
+    months_back: 30
+
+  - name: "Pattern Recognition"
+    aliases: ["Pattern Recognition", "PR"]
+    country: 国外
+    issn: "0031-3203"
+    official_site: "https://www.sciencedirect.com/journal/pattern-recognition"
+    slug: "pattern_recognition"
+    source_priority: ["crossref", "openalex"]
+    min_papers: 5
+    max_papers: 15
+    months_back: 30
+
+  - name: "Information Sciences"
+    aliases: ["Information Sciences", "INS"]
+    country: 国外
+    issn: "0020-0255"
+    official_site: "https://www.sciencedirect.com/journal/information-sciences"
+    slug: "information_sciences"
+    source_priority: ["crossref", "openalex"]
+    min_papers: 5
+    max_papers: 15
+    months_back: 30
+
+  - name: "IEEE Transactions on Knowledge and Data Engineering"
+    aliases: ["IEEE TKDE", "TKDE", "IEEE Transactions on Knowledge and Data Engineering"]
+    country: 国外
+    issn: "1041-4347"
+    official_site: "https://www.computer.org/csdl/journal/tk"
+    slug: "tkde"
+    source_priority: ["crossref", "openalex"]
+    min_papers: 5
+    max_papers: 15
+    months_back: 30
+
+  - name: "IEEE Transactions on Neural Networks and Learning Systems"
+    aliases: ["IEEE TNNLS", "TNNLS", "IEEE Transactions on Neural Networks and Learning Systems"]
+    country: 国外
+    issn: "2162-237X"
+    official_site: "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems"
+    slug: "tnnls"
+    source_priority: ["crossref", "openalex"]
+    min_papers: 5
+    max_papers: 15
+    months_back: 30
